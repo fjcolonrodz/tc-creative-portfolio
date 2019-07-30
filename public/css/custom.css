@@ -1,0 +1,21 @@
+@font-face {
+    font-family: Amadeus;
+    font-style: normal;
+    font-weight: 100;
+    src: url("../fonts/Amadeus-Light.otf");
+    src: url("../fonts/Amadeus-Light.ttf");
+}
+
+@font-face {
+    font-family: Amadeus;
+    font-style: normal;
+    font-weight: normal;
+    src: url("../fonts/Amadeus-Regular.otf");
+}
+
+@font-face {
+    font-family: Amadeus;
+    font-style: normal;
+    font-weight: bold;
+    src: url("../fonts/Amadeus-Bold.otf");
+}
