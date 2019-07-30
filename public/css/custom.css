@@ -19,3 +19,9 @@
     font-weight: bold;
     src: url("../fonts/Amadeus-Bold.otf");
 }
+
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 16px;
+    margin: 0;
+}
