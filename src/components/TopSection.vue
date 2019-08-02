@@ -76,6 +76,7 @@
     #content p {
         color: white;
         font-size: 25px;
+        font-weight: lighter;
     }
     #content #ctas {
         margin: 3em 0;
