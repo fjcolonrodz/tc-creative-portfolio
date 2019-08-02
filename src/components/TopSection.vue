@@ -8,16 +8,16 @@
         <div id="content">
             <img class="logo" src="../assets/logo.png" alt="">
 
-            <h1>Creative Portfolio</h1>
+            <h1>{{ $store.state.title }}</h1>
 
             <p>
-                TravelClick's Creative team offers strategic designs <br>
-                for clients such as Google Display Ads that are <br>
-                templates, personalized, or custom designed.
+                {{ $store.state.description_1 }} <br>
+                {{ $store.state.description_2 }} <br>
+                {{ $store.state.description_3 }}
             </p>
             <p>
-                The team also creates Social Videos for advertisement <br>
-                on Facebook, Instagram, YouTube, and Pinterest.
+                {{ $store.state.description_4 }} <br>
+                {{ $store.state.description_5 }}
             </p>
 
             <div id="ctas">
@@ -40,10 +40,11 @@
 
 <style scoped>
     #background {
-        position:relative;
+        position: relative;
         height: 650px;
         overflow: hidden;
     }
+
     #background .image {
         position: absolute;
         top: -300px;
@@ -51,6 +52,7 @@
         width: 100%;
         z-index: -3;
     }
+
     #background .shape {
         position: absolute;
         left: -1175px;
@@ -60,6 +62,7 @@
         width: 1920px;
         z-index: -2;
     }
+
     #content {
         position: absolute;
         top: 0;
@@ -67,20 +70,24 @@
         width: 100%;
         padding: 4em 9em;
     }
+
     #content h1 {
         color: white;
         font-family: Amadeus;
         font-size: 46px;
         font-weight: normal;
     }
+
     #content p {
         color: white;
         font-size: 25px;
         font-weight: lighter;
     }
+
     #content #ctas {
         margin: 3em 0;
     }
+
     #content .button {
         border: 1px solid white;
         border-radius: .25em;
@@ -91,9 +98,11 @@
         padding: .5em 2em;
         text-decoration: none;
     }
+
     #content .logo, #content .google_partner {
         width: 150px;
     }
+
     #top-section {
         overflow: hidden;
         position: relative;

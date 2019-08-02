@@ -2,8 +2,7 @@
     <div id="display_ads">
         <h2>Display Ads</h2>
         <div class="line"></div>
-        <categories></categories>
-        <categories></categories>
+        <categories v-for="(category, index) in categoriesState" :key="index" :item="category"></categories>
     </div>
 </template>
 
@@ -14,6 +13,11 @@
         name: "DisplayAds",
         components: {
             Categories
+        },
+        computed: {
+            categoriesState() {
+                return this.$store.state.products[0].categories
+            }
         }
     }
 </script>
@@ -23,12 +27,14 @@
         padding: 1em 9em;
         position: relative;
     }
+
     #display_ads h2 {
         color: #005eb8;
         font-family: Amadeus;
         font-size: 36px;
         font-weight: lighter;
     }
+
     .line {
         position: absolute;
         top: 85px;
