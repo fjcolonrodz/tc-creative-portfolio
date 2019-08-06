@@ -18,7 +18,7 @@ export default new Vuex.Store({
                     {
                         "name": "Templated Banners",
                         "description": "No changes to template. Just fitting of photo or video into our banners. Up to 4 updates allowed per year.",
-                        "image": "add_image_url_here",
+                        "image": require("./assets/building6.png"),
                         "template_sets": [
                             {
                                 "show" : true,
@@ -75,7 +75,7 @@ export default new Vuex.Store({
                     {
                         "name": "Personalized Banners",
                         "description": "Specific adjustments to image or text. Up to 4 updates allowed per year.",
-                        "image": "add_image_url_here",
+                        "image": require("./assets/Man3.png"),
                         "template_sets": [
                             {
                                 "show" : true,
@@ -132,7 +132,7 @@ export default new Vuex.Store({
                     {
                         "name": "Custom Designed Banners",
                         "description": "Custom design description.",
-                        "image": "add_image_url_here",
+                        "image": require("./assets/UXI2.png"),
                         "template_sets": [
                             {
                                 "show" : true,

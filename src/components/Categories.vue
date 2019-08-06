@@ -11,7 +11,7 @@
                         {{ index + 1 }}
                     </button>
                 </div>
-                <img src="../assets/building6.png" alt="">
+                <img :src="item.image" alt="">
             </div>
             <div id="banners" v-for="(set, index) in item.template_sets" :key="index">
                 <template v-if="set.show">
@@ -72,7 +72,9 @@
     }
 
     #description img {
-        width: 100%;
+        display: block;
+        margin: 0 auto;
+        height: 200px;
     }
 
     #banners {
@@ -91,9 +93,10 @@
     }
 
     .change_template {
-        border: 1.5px solid #005eb8;
-        margin-right: .5em;
-        padding: .5em .9em;
+        border: 2px solid #005eb8;
+        color: #005eb8;
+        margin-right: 1em;
+        padding: .5em .8em;
         text-decoration: none;
         font-size: 20px;
         font-weight: bold;
