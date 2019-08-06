@@ -2,7 +2,7 @@
     <div id="display_ads">
         <h2>Display Ads</h2>
         <div class="line"></div>
-        <categories v-for="(category, index) in categoriesState" :key="index" :item="category"></categories>
+        <categories v-for="(category, index) in categories" :key="index" :item="category"></categories>
     </div>
 </template>
 
@@ -15,7 +15,7 @@
             Categories
         },
         computed: {
-            categoriesState() {
+            categories() {
                 return this.$store.state.products[0].categories
             }
         }

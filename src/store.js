@@ -19,88 +19,172 @@ export default new Vuex.Store({
                         "name": "Templated Banners",
                         "description": "No changes to template. Just fitting of photo or video into our banners. Up to 4 updates allowed per year.",
                         "image": "add_image_url_here",
-                        "templates": [
-                            [
-                                {
-                                    "url": "//adpiler.s3.eu-central-1.amazonaws.com/ads/b8c8ff3dbb8398d07190ed6b876e162c_html/index.html",
-                                    "width": "160",
-                                    "height": "600"
-                                },
-                                {
-                                    "url": "//adpiler.s3.eu-central-1.amazonaws.com/ads/b8c8ff3dbb8398d07190ed6b876e162c_html/index.html",
-                                    "width": "300",
-                                    "height": "600"
-                                },
-                                {
-                                    "url": "//adpiler.s3.eu-central-1.amazonaws.com/ads/b8c8ff3dbb8398d07190ed6b876e162c_html/index.html",
-                                    "width": "300",
-                                    "height": "250"
-                                },
-                                {
-                                    "url": "//adpiler.s3.eu-central-1.amazonaws.com/ads/b8c8ff3dbb8398d07190ed6b876e162c_html/index.html",
-                                    "width": "728",
-                                    "height": "90"
-                                }
-                            ]
-                        ]
+                        "template_sets": [
+                            {
+                                "show" : true,
+                                "templates": [
+                                    {
+                                        "url": "//adpiler.s3.eu-central-1.amazonaws.com/ads/b8c8ff3dbb8398d07190ed6b876e162c_html/index.html",
+                                        "width": "160",
+                                        "height": "600"
+                                    },
+                                    {
+                                        "url": "//adpiler.s3.eu-central-1.amazonaws.com/ads/b8c8ff3dbb8398d07190ed6b876e162c_html/index.html",
+                                        "width": "300",
+                                        "height": "600"
+                                    },
+                                    {
+                                        "url": "//adpiler.s3.eu-central-1.amazonaws.com/ads/b8c8ff3dbb8398d07190ed6b876e162c_html/index.html",
+                                        "width": "300",
+                                        "height": "250"
+                                    },
+                                    {
+                                        "url": "//adpiler.s3.eu-central-1.amazonaws.com/ads/b8c8ff3dbb8398d07190ed6b876e162c_html/index.html",
+                                        "width": "728",
+                                        "height": "90"
+                                    }
+                                ]
+                            },
+                            {
+                                "show" : false,
+                                "templates": [
+                                    {
+                                        "url": "//adpiler.s3.eu-central-1.amazonaws.com/ads/b8c8ff3dbb8398d07190ed6b876e162c_html/index.html",
+                                        "width": "160",
+                                        "height": "600"
+                                    },
+                                    {
+                                        "url": "//adpiler.s3.eu-central-1.amazonaws.com/ads/b8c8ff3dbb8398d07190ed6b876e162c_html/index.html",
+                                        "width": "300",
+                                        "height": "600"
+                                    },
+                                    {
+                                        "url": "//adpiler.s3.eu-central-1.amazonaws.com/ads/b8c8ff3dbb8398d07190ed6b876e162c_html/index.html",
+                                        "width": "300",
+                                        "height": "250"
+                                    },
+                                    {
+                                        "url": "//adpiler.s3.eu-central-1.amazonaws.com/ads/b8c8ff3dbb8398d07190ed6b876e162c_html/index.html",
+                                        "width": "728",
+                                        "height": "90"
+                                    }
+                                ]
+                            },
+                        ],
                     },
                     {
                         "name": "Personalized Banners",
                         "description": "Specific adjustments to image or text. Up to 4 updates allowed per year.",
                         "image": "add_image_url_here",
-                        "templates": [
-                            [
-                                {
-                                    "url": "//adpiler.s3.eu-central-1.amazonaws.com/ads/b8c8ff3dbb8398d07190ed6b876e162c_html/index.html",
-                                    "width": "160",
-                                    "height": "600"
-                                },
-                                {
-                                    "url": "//adpiler.s3.eu-central-1.amazonaws.com/ads/b8c8ff3dbb8398d07190ed6b876e162c_html/index.html",
-                                    "width": "300",
-                                    "height": "600"
-                                },
-                                {
-                                    "url": "//adpiler.s3.eu-central-1.amazonaws.com/ads/b8c8ff3dbb8398d07190ed6b876e162c_html/index.html",
-                                    "width": "300",
-                                    "height": "250"
-                                },
-                                {
-                                    "url": "//adpiler.s3.eu-central-1.amazonaws.com/ads/b8c8ff3dbb8398d07190ed6b876e162c_html/index.html",
-                                    "width": "728",
-                                    "height": "90"
-                                }
-                            ]
-                        ]
+                        "template_sets": [
+                            {
+                                "show" : true,
+                                "templates": [
+                                    {
+                                        "url": "//adpiler.s3.eu-central-1.amazonaws.com/ads/b8c8ff3dbb8398d07190ed6b876e162c_html/index.html",
+                                        "width": "160",
+                                        "height": "600"
+                                    },
+                                    {
+                                        "url": "//adpiler.s3.eu-central-1.amazonaws.com/ads/b8c8ff3dbb8398d07190ed6b876e162c_html/index.html",
+                                        "width": "300",
+                                        "height": "600"
+                                    },
+                                    {
+                                        "url": "//adpiler.s3.eu-central-1.amazonaws.com/ads/b8c8ff3dbb8398d07190ed6b876e162c_html/index.html",
+                                        "width": "300",
+                                        "height": "250"
+                                    },
+                                    {
+                                        "url": "//adpiler.s3.eu-central-1.amazonaws.com/ads/b8c8ff3dbb8398d07190ed6b876e162c_html/index.html",
+                                        "width": "728",
+                                        "height": "90"
+                                    }
+                                ]
+                            },
+                            {
+                                "show" : false,
+                                "templates": [
+                                    {
+                                        "url": "//adpiler.s3.eu-central-1.amazonaws.com/ads/b8c8ff3dbb8398d07190ed6b876e162c_html/index.html",
+                                        "width": "160",
+                                        "height": "600"
+                                    },
+                                    {
+                                        "url": "//adpiler.s3.eu-central-1.amazonaws.com/ads/b8c8ff3dbb8398d07190ed6b876e162c_html/index.html",
+                                        "width": "300",
+                                        "height": "600"
+                                    },
+                                    {
+                                        "url": "//adpiler.s3.eu-central-1.amazonaws.com/ads/b8c8ff3dbb8398d07190ed6b876e162c_html/index.html",
+                                        "width": "300",
+                                        "height": "250"
+                                    },
+                                    {
+                                        "url": "//adpiler.s3.eu-central-1.amazonaws.com/ads/b8c8ff3dbb8398d07190ed6b876e162c_html/index.html",
+                                        "width": "728",
+                                        "height": "90"
+                                    }
+                                ]
+                            },
+                        ],
                     },
                     {
                         "name": "Custom Designed Banners",
                         "description": "Custom design description.",
                         "image": "add_image_url_here",
-                        "templates": [
-                            [
-                                {
-                                    "url": "//adpiler.s3.eu-central-1.amazonaws.com/ads/b8c8ff3dbb8398d07190ed6b876e162c_html/index.html",
-                                    "width": "160",
-                                    "height": "600"
-                                },
-                                {
-                                    "url": "//adpiler.s3.eu-central-1.amazonaws.com/ads/b8c8ff3dbb8398d07190ed6b876e162c_html/index.html",
-                                    "width": "300",
-                                    "height": "600"
-                                },
-                                {
-                                    "url": "//adpiler.s3.eu-central-1.amazonaws.com/ads/b8c8ff3dbb8398d07190ed6b876e162c_html/index.html",
-                                    "width": "300",
-                                    "height": "250"
-                                },
-                                {
-                                    "url": "//adpiler.s3.eu-central-1.amazonaws.com/ads/b8c8ff3dbb8398d07190ed6b876e162c_html/index.html",
-                                    "width": "728",
-                                    "height": "90"
-                                }
-                            ]
-                        ]
+                        "template_sets": [
+                            {
+                                "show" : true,
+                                "templates": [
+                                    {
+                                        "url": "//adpiler.s3.eu-central-1.amazonaws.com/ads/b8c8ff3dbb8398d07190ed6b876e162c_html/index.html",
+                                        "width": "160",
+                                        "height": "600"
+                                    },
+                                    {
+                                        "url": "//adpiler.s3.eu-central-1.amazonaws.com/ads/b8c8ff3dbb8398d07190ed6b876e162c_html/index.html",
+                                        "width": "300",
+                                        "height": "600"
+                                    },
+                                    {
+                                        "url": "//adpiler.s3.eu-central-1.amazonaws.com/ads/b8c8ff3dbb8398d07190ed6b876e162c_html/index.html",
+                                        "width": "300",
+                                        "height": "250"
+                                    },
+                                    {
+                                        "url": "//adpiler.s3.eu-central-1.amazonaws.com/ads/b8c8ff3dbb8398d07190ed6b876e162c_html/index.html",
+                                        "width": "728",
+                                        "height": "90"
+                                    }
+                                ]
+                            },
+                            {
+                                "show" : false,
+                                "templates": [
+                                    {
+                                        "url": "//adpiler.s3.eu-central-1.amazonaws.com/ads/b8c8ff3dbb8398d07190ed6b876e162c_html/index.html",
+                                        "width": "160",
+                                        "height": "600"
+                                    },
+                                    {
+                                        "url": "//adpiler.s3.eu-central-1.amazonaws.com/ads/b8c8ff3dbb8398d07190ed6b876e162c_html/index.html",
+                                        "width": "300",
+                                        "height": "600"
+                                    },
+                                    {
+                                        "url": "//adpiler.s3.eu-central-1.amazonaws.com/ads/b8c8ff3dbb8398d07190ed6b876e162c_html/index.html",
+                                        "width": "300",
+                                        "height": "250"
+                                    },
+                                    {
+                                        "url": "//adpiler.s3.eu-central-1.amazonaws.com/ads/b8c8ff3dbb8398d07190ed6b876e162c_html/index.html",
+                                        "width": "728",
+                                        "height": "90"
+                                    }
+                                ]
+                            },
+                        ],
                     }
                 ]
             },

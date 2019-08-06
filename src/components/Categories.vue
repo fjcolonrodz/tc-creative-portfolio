@@ -6,13 +6,18 @@
                 <h3>{{ item.name }}</h3>
                 <p>{{ item.description }}</p>
                 <div id="change_template_buttons">
-                    <a :v-for="(template, index) in item.templates" class="change_template" href="">{{ $index }}</a>
+                    <button v-for="(set, index) in item.template_sets" :key="index" class="change_template"
+                            @click="changeTemplate(item.template_sets, set)">
+                        {{ index + 1 }}
+                    </button>
                 </div>
                 <img src="../assets/building6.png" alt="">
             </div>
-            <div id="banners" v-for="(set, index) in item.templates" :key="index" v-if="item">
-                <banner v-for="(template, index) in set" :key="index" :template="template"
-                        class="banner"></banner>
+            <div id="banners" v-for="(set, index) in item.template_sets" :key="index">
+                <template v-if="set.show">
+                    <banner v-for="(banner, index) in set.templates" :key="index" :banner="banner"
+                            class="banner"></banner>
+                </template>
             </div>
         </div>
     </div>
@@ -25,6 +30,17 @@
         name: "Categories",
         components: {
             Banner
+        },
+        methods: {
+            changeTemplate : function (sets, set) {
+                let currentSet = sets.filter(function (set) {
+                    return set.show === true
+                });
+                currentSet[0].show = false;
+
+                set.show ? set.show = false : set.show = true;
+
+            }
         },
         props: ['item']
     }
