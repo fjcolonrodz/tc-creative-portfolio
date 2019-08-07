@@ -1,18 +1,27 @@
 <template>
     <div id="app">
         <top-section></top-section>
-        <display-ads></display-ads>
+        <products :product="displayAds" :banners="true"></products>
+        <products :product="socialVideos" :videos="true"></products>
     </div>
 </template>
 
 <script>
     import TopSection from './components/TopSection.vue'
-    import DisplayAds from './components/DisplayAds.vue'
+    import Products from './components/Products.vue'
 
     export default {
         name: 'app',
         components: {
-            TopSection, DisplayAds
+            TopSection, Products
+        },
+        computed: {
+            displayAds() {
+                return this.$store.state.products[0]
+            },
+            socialVideos() {
+                return this.$store.state.products[1]
+            }
         }
     }
 </script>

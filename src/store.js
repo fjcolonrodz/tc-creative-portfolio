@@ -194,29 +194,32 @@ export default new Vuex.Store({
                 "categories": [
                     {
                         "name": "6 seconds",
+                        "show": true,
                         "videos": [
-                            {"facebook": "add_video_url_here"},
-                            {"youtube": "add_video_url_here"},
-                            {"instagram": "add_video_url_here"},
-                            {"pinteres": "add_video_url_here"}
+                            {"url": require("./assets/video.mp4")},
+                            {"url": require("./assets/video.mp4")},
+                            {"url": require("./assets/video.mp4")},
+                            {"url": require("./assets/video.mp4")}
                         ]
                     },
                     {
                         "name": "15-20 seconds",
+                        "show": false,
                         "videos": [
-                            {"facebook": "add_video_url_here"},
-                            {"youtube": "add_video_url_here"},
-                            {"instagram": "add_video_url_here"},
-                            {"pinteres": "add_video_url_here"}
+                            {"url": require("./assets/video2.mp4")},
+                            {"url": require("./assets/video2.mp4")},
+                            {"url": require("./assets/video2.mp4")},
+                            {"url": require("./assets/video2.mp4")}
                         ]
                     },
                     {
                         "name": "Story",
+                        "show": false,
                         "videos": [
-                            {"facebook": "add_video_url_here"},
-                            {"youtube": "add_video_url_here"},
-                            {"instagram": "add_video_url_here"},
-                            {"pinteres": "add_video_url_here"}
+                            {"url": require("./assets/video3.mp4")},
+                            {"url": require("./assets/video3.mp4")},
+                            {"url": require("./assets/video3.mp4")},
+                            {"url": require("./assets/video3.mp4")},
                         ]
                     },
                 ]
