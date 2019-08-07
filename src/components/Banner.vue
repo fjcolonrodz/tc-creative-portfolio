@@ -14,6 +14,6 @@
 
 <style scoped>
     iframe {
-        border: 0px;
+        border: 0;
     }
 </style>

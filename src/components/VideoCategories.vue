@@ -14,17 +14,6 @@
 <script>
     export default {
         name: "VideoCategories",
-        methods: {
-            changeTemplate: function (sets, set) {
-                let currentSet = sets.filter(function (set) {
-                    return set.show === true
-                });
-                currentSet[0].show = false;
-
-                set.show ? set.show = false : set.show = true;
-
-            }
-        },
         props: ['item']
     }
 </script>
