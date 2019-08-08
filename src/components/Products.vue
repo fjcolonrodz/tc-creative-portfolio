@@ -5,14 +5,13 @@
                 <h2>{{ product.name }}</h2>
                 <div class="line"></div>
             </div>
-            <div class="categories">
+            <div id="ad_categories">
                 <banner-categories v-for="(category, index) in product.categories" :key="index" :item="category"></banner-categories>
             </div>
         </div>
 
         <div id="social_videos" v-if="videos">
             <div class="title">
-                <hr>
                 <h2>{{ product.name }}</h2>
                 <div class="line social"></div>
             </div>
@@ -26,8 +25,8 @@
                         </button>
                     </div>
                 </div>
-                <div class="categories">
-                    <video-categories v-for="(category, index) in product.categories" :key="index" :item="category"></video-categories>
+                <div id="video_categories">
+                    <videos v-for="(category, index) in product.categories" :key="index" :item="category"></videos>
                 </div>
             </div>
         </div>
@@ -36,12 +35,12 @@
 
 <script>
     import BannerCategories from './BannerCategories.vue'
-    import VideoCategories from '../components/VideoCategories.vue'
+    import Videos from './Videos.vue'
 
     export default {
         name: "Products",
         components: {
-            BannerCategories, VideoCategories
+            BannerCategories, Videos
         },
         methods: {
             changeTemplate : function (categories, category) {
@@ -58,41 +57,16 @@
 </script>
 
 <style scoped>
-    #change_template_buttons {
-        margin: 3em 0;
-    }
-
-    #content {
-        display: flex;
-        align-items: flex-start;
-    }
-
-    #content #description p {
-        font-size: 24px;
-        font-weight: lighter;
-        margin: 0;
-    }
-
-    #content .categories {
-        display: flex;
-        flex-wrap: wrap;
-    }
-
     #products {
         padding: 1em 9em;
         position: relative;
     }
 
-    .change_template {
-        border: 2px solid #005eb8;
+    .title h2 {
         color: #005eb8;
-        display: block;
-        margin: 1em;
-        padding: .5em 0;
-        text-decoration: none;
-        font-size: 20px;
-        font-weight: bold;
-        width: 300px;
+        font-family: Amadeus;
+        font-size: 36px;
+        font-weight: lighter;
     }
 
     .line {
@@ -108,10 +82,44 @@
         top: 95px;
     }
 
-    .title h2 {
-        color: #005eb8;
-        font-family: Amadeus;
-        font-size: 36px;
+    #content {
+        display: flex;
+    }
+
+    #description {
+        flex: 1;
+    }
+
+    #video_categories {
+        flex: 2;
+        padding-top: .6em;
+    }
+
+    #content #description p {
+        font-size: 24px;
         font-weight: lighter;
+        margin: 0;
+    }
+
+    #change_template_buttons {
+        margin: 3em 0;
+    }
+
+    .change_template {
+        border: 2px solid #005eb8;
+        color: #005eb8;
+        display: block;
+        margin: 1em;
+        padding: .5em 0;
+        text-decoration: none;
+        font-size: 20px;
+        font-weight: bold;
+        width: 300px;
+        transition:all 0.3s ease;
+    }
+
+    .change_template:hover {
+        background: #005eb8;
+        color: white;
     }
 </style>

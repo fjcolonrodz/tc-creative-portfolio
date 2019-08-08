@@ -5,7 +5,7 @@ Vue.use(Vuex);
 
 export default new Vuex.Store({
     state: {
-        "title": "Creative Portfolio",
+        "title": "Creative Portfolio (Beta)",
         "description_1": "TravelClick's Creative team offers strategic designs",
         "description_2": "for clients such as Google Display Ads that are",
         "description_3": "templates, personalized, or custom designed.",

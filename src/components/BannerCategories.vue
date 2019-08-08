@@ -1,6 +1,5 @@
 <template>
     <div>
-        <hr>
         <div id="categories">
             <div id="description">
                 <h3>{{ item.name }}</h3>
@@ -13,12 +12,13 @@
                 </div>
                 <img :src="item.image" alt="">
             </div>
-            <div id="banners" v-for="(set, index) in item.template_sets" :key="index">
-                <template v-if="set.show">
-                    <banner v-for="(banner, index) in set.templates" :key="index" :banner="banner"
+
+            <template v-for="(set, index) in item.template_sets">
+                <div id="banners" v-if="set.show" :key="index">
+                    <banner v-for="(banner, index) in item.template_sets[0].templates" :key="index" :banner="banner"
                             class="banner"></banner>
-                </template>
-            </div>
+                </div>
+            </template>
         </div>
     </div>
 </template>
@@ -49,12 +49,18 @@
 <style scoped>
     #categories {
         display: flex;
-        align-items: flex-start;
+        margin-bottom: 3em;
     }
 
     #description {
-        margin-top: 1em;
-        flex: 60%;
+        flex: 1;
+    }
+
+    #banners {
+        display: flex;
+        flex: 2;
+        flex-wrap: wrap;
+        padding-top: .6em;
     }
 
     #description h3 {
@@ -70,25 +76,8 @@
         font-weight: lighter;
     }
 
-    #description img {
-        display: block;
-        margin: 0 auto;
-        height: 200px;
-    }
-
-    #banners {
-        display: flex;
-        flex-wrap: wrap;
-        margin: 1em 0 .8em 0;
-        justify-content: space-between;
-    }
-
     #change_template_buttons {
         margin: 3em 0;
-    }
-
-    .banner:last-child {
-        margin-top: .5em;
     }
 
     .change_template {
@@ -99,5 +88,48 @@
         text-decoration: none;
         font-size: 20px;
         font-weight: bold;
+        transition:all 0.3s ease;
     }
+
+    .change_template:hover {
+        background: #005eb8;
+        color: white;
+    }
+
+    #description img {
+        display: block;
+        margin: 0 auto;
+        height: 200px;
+    }
+
+
+
+    /*#categories {*/
+    /*    display: flex;*/
+    /*    align-items: flex-start;*/
+    /*}*/
+
+    /*#description {*/
+    /*    margin-top: 1em;*/
+    /*    flex: 60%;*/
+    /*}*/
+
+
+
+
+
+    /*#banners {*/
+    /*    display: flex;*/
+    /*    flex-wrap: wrap;*/
+    /*    margin: 1em 0 .8em 0;*/
+    /*    justify-content: space-between;*/
+    /*}*/
+
+
+
+    /*.banner:last-child {*/
+    /*    margin-top: .5em;*/
+    /*}*/
+
+
 </style>
