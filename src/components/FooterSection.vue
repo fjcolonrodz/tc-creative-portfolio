@@ -12,6 +12,7 @@
                 around the globe to know, acquire, convert and retain guests.
             </p>
             <p> 2019 TravelClick.“TravelClick” and all related logos and marks are owned by and/or are registered trademarks of TravelClick, Inc.</p>
+            <img src="../assets/google-partner.png" alt="">
         </div>
     </div>
 </template>
@@ -26,7 +27,7 @@
     #footer {
         position: relative;
         padding: 1em 9em;
-        height: 487px;
+        height: 485px;
     }
 
     #background {
@@ -40,7 +41,7 @@
     }
 
     #content {
-        padding-top: 15em;
+        padding-top: 11em;
         text-align: center;
     }
 
