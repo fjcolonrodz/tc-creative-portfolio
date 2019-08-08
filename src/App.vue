@@ -3,17 +3,19 @@
         <top-section></top-section>
         <products :product="displayAds" :banners="true"></products>
         <products :product="socialVideos" :videos="true"></products>
+        <footer-section></footer-section>
     </div>
 </template>
 
 <script>
     import TopSection from './components/TopSection.vue'
     import Products from './components/Products.vue'
+    import FooterSection from './components/FooterSection.vue'
 
     export default {
         name: 'app',
         components: {
-            TopSection, Products
+            TopSection, Products, FooterSection
         },
         computed: {
             displayAds() {
