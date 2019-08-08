@@ -97,6 +97,12 @@
         margin-right: 1em;
         padding: .5em 2em;
         text-decoration: none;
+        transition:all 0.3s ease;
+    }
+
+    #content .button:hover {
+        background: white;
+        color: #005eb8;
     }
 
     #content .logo, #content .google_partner {

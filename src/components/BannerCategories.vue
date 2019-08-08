@@ -101,35 +101,4 @@
         margin: 0 auto;
         height: 200px;
     }
-
-
-
-    /*#categories {*/
-    /*    display: flex;*/
-    /*    align-items: flex-start;*/
-    /*}*/
-
-    /*#description {*/
-    /*    margin-top: 1em;*/
-    /*    flex: 60%;*/
-    /*}*/
-
-
-
-
-
-    /*#banners {*/
-    /*    display: flex;*/
-    /*    flex-wrap: wrap;*/
-    /*    margin: 1em 0 .8em 0;*/
-    /*    justify-content: space-between;*/
-    /*}*/
-
-
-
-    /*.banner:last-child {*/
-    /*    margin-top: .5em;*/
-    /*}*/
-
-
 </style>
