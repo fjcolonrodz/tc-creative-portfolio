@@ -26,7 +26,7 @@
                 <a class="button" href="">Case Studies</a>
             </div>
 
-            <img class="google_partner" src="../assets/google-partner.png" alt="">
+<!--            <img class="google_partner" src="../assets/google-partner.png" alt="">-->
         </div>
 
     </div>
@@ -68,7 +68,7 @@
         top: 0;
         left: 0;
         width: 100%;
-        padding: 4em 9em;
+        padding: 5.5em 9em;
     }
 
     #content h1 {
