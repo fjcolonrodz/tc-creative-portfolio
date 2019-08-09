@@ -229,19 +229,52 @@ export default new Vuex.Store({
             "name": "Case Studies",
             "cases": [
                 {
-                    "title": "Hotel_name",
-                    "body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus porta erat id metus imperdiet egestas.",
-                    "banner_url": "add_banner_url_here"
+                    "show" : true,
+                    "title": "Case Study 1",
+                    "paragraph_1": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis.",
+                    "paragraph_2": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis.",
+                    "banner":
+                        {
+                            "url": "//adpiler.s3.eu-central-1.amazonaws.com/ads/b8c8ff3dbb8398d07190ed6b876e162c_html/index.html",
+                            "width": "300",
+                            "height": "250"
+                        }
                 },
                 {
-                    "title": "Hotel_name",
-                    "body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus porta erat id metus imperdiet egestas.",
-                    "banner_url": "add_banner_url_here"
+                    "show" : false,
+                    "title": "Case Study 2",
+                    "paragraph_1": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis.",
+                    "paragraph_2": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis.",
+                    "banner":
+                        {
+                            "url": "//adpiler.s3.eu-central-1.amazonaws.com/ads/b8c8ff3dbb8398d07190ed6b876e162c_html/index.html",
+                            "width": "300",
+                            "height": "250"
+                        }
                 },
                 {
-                    "title": "Hotel_name",
-                    "body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus porta erat id metus imperdiet egestas.",
-                    "banner_url": "add_banner_url_here"
+                    "show" : false,
+                    "title": "Case Study 3",
+                    "paragraph_1": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis.",
+                    "paragraph_2": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis.",
+                    "banner":
+                        {
+                            "url": "//adpiler.s3.eu-central-1.amazonaws.com/ads/b8c8ff3dbb8398d07190ed6b876e162c_html/index.html",
+                            "width": "300",
+                            "height": "250"
+                        }
+                },
+                {
+                    "show" : false,
+                    "title": "Case Study 4",
+                    "paragraph_1": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis.",
+                    "paragraph_2": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis.",
+                    "banner":
+                        {
+                            "url": "//adpiler.s3.eu-central-1.amazonaws.com/ads/b8c8ff3dbb8398d07190ed6b876e162c_html/index.html",
+                            "width": "300",
+                            "height": "250"
+                        }
                 },
             ]
         }

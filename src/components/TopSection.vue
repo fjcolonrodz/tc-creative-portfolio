@@ -23,7 +23,7 @@
             <div id="ctas">
                 <a class="button" href="#display_ads">Display Ads</a>
                 <a class="button" href="#social_videos">Social Videos</a>
-                <a class="button" onclick="alert('Not yet my friend! Try again later!')">Case Studies</a>
+                <a class="button" href="#case_studies">Case Studies</a>
             </div>
 
 <!--            <img class="google_partner" src="../assets/google-partner.png" alt="">-->

@@ -13,7 +13,7 @@
         <div id="social_videos" v-if="videos">
             <div class="title">
                 <h2>{{ product.name }}</h2>
-                <div class="line social"></div>
+                <div class="line"></div>
             </div>
             <div id="content">
                 <div id="description">
