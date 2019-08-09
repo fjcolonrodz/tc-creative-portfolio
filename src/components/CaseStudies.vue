@@ -23,7 +23,7 @@
         </template>
 
         <div id="change_template_buttons">
-            <button v-for="(item, index) in caseStudies.cases" :key="index" class="change_template"
+            <button v-for="(item, index) in caseStudies.cases" :key="index" class="change_template" :class="active(item)"
                     @click="changeTemplate(caseStudies.cases, item)">
                 {{ index + 1 }}
             </button>
@@ -45,6 +45,9 @@
             }
         },
         methods: {
+            active : function (item) {
+                return item.show ? 'active' : ''
+            },
             changeTemplate : function (sets, set) {
                 let currentSet = sets.filter(function (set) {
                     return set.show === true
@@ -119,6 +122,11 @@
     }
 
     .change_template:hover {
+        background: #005eb8;
+        color: white;
+    }
+
+    .active {
         background: #005eb8;
         color: white;
     }

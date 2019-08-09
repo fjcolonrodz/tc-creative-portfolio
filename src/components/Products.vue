@@ -19,7 +19,7 @@
                 <div id="description">
                     <p>{{ product.description }}</p>
                     <div id="change_template_buttons">
-                        <button v-for="(category, index) in product.categories" :key="index" class="change_template"
+                        <button v-for="(category, index) in product.categories" :key="index" class="change_template" :class="active(category)"
                                 @click="changeTemplate(product.categories, category)">
                             {{ category.name }}
                         </button>
@@ -43,6 +43,9 @@
             BannerCategories, Videos
         },
         methods: {
+            active : function (category) {
+                return category.show ? 'active' : ''
+            },
             changeTemplate : function (categories, category) {
                 let currentCategory = categories.filter(function (category) {
                     return category.show === true
@@ -119,6 +122,11 @@
     }
 
     .change_template:hover {
+        background: #005eb8;
+        color: white;
+    }
+
+    .active {
         background: #005eb8;
         color: white;
     }

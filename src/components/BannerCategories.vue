@@ -5,7 +5,7 @@
                 <h3>{{ item.name }}</h3>
                 <p>{{ item.description }}</p>
                 <div id="change_template_buttons">
-                    <button v-for="(set, index) in item.template_sets" :key="index" class="change_template"
+                    <button v-for="(set, index) in item.template_sets" :key="index" class="change_template" :class="active(set)"
                             @click="changeTemplate(item.template_sets, set)">
                         {{ index + 1 }}
                     </button>
@@ -32,6 +32,9 @@
             Banner
         },
         methods: {
+            active : function (set) {
+                return set.show ? 'active' : ''
+            },
             changeTemplate : function (sets, set) {
                 let currentSet = sets.filter(function (set) {
                     return set.show === true
@@ -92,6 +95,11 @@
     }
 
     .change_template:hover {
+        background: #005eb8;
+        color: white;
+    }
+
+    .active {
         background: #005eb8;
         color: white;
     }
