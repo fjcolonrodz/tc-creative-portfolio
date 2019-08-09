@@ -231,8 +231,8 @@ export default new Vuex.Store({
                 {
                     "show" : true,
                     "title": "Case Study 1",
-                    "paragraph_1": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis.",
-                    "paragraph_2": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis.",
+                    "paragraph_1": "Lorem ipsum ut lacus dapibus magna nam consequat ultricies aliquam donec ullamcorper vulputate quis leo sem gravida lacus dictumst cursus primis curae vestibulum faucibus purus platea gravida et.",
+                    "paragraph_2": "Senectus eros molestie nam sagittis dictumst ullamcorper porta senectus tellus tristique, class condimentum leo eget facilisis convallis ornare sollicitudin sagittis, curabitur etiam vehicula ornare etiam in sapien congue donec nunc lacus dolor fermentum odio nec.",
                     "banner":
                         {
                             "url": "//adpiler.s3.eu-central-1.amazonaws.com/ads/b8c8ff3dbb8398d07190ed6b876e162c_html/index.html",
@@ -243,8 +243,8 @@ export default new Vuex.Store({
                 {
                     "show" : false,
                     "title": "Case Study 2",
-                    "paragraph_1": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis.",
-                    "paragraph_2": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis.",
+                    "paragraph_1": "Hac proin hendrerit himenaeos nostra placerat senectus tortor netus porta mauris, purus ligula est molestie justo urna ornare lobortis praesent congue, netus ullamcorper mauris vivamus etiam quisque fames diam sociosqu.",
+                    "paragraph_2": "Dui ut purus fringilla dictumst facilisis congue aliquam aenean, himenaeos etiam tristique augue urna nostra ante purus vitae, taciti imperdiet eleifend dictumst suscipit potenti egestas semper dui habitant sapien.",
                     "banner":
                         {
                             "url": "//adpiler.s3.eu-central-1.amazonaws.com/ads/b8c8ff3dbb8398d07190ed6b876e162c_html/index.html",
@@ -255,8 +255,9 @@ export default new Vuex.Store({
                 {
                     "show" : false,
                     "title": "Case Study 3",
-                    "paragraph_1": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis.",
-                    "paragraph_2": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis.",
+                    "paragraph_1": "Eget interdum pretium dolor commodo maecenas leo tempor diam etiam, consectetur luctus placerat sagittis et neque augue class, integer aenean neque libero consequat sit dictum turpis.",
+                    "paragraph_2": "Phasellus auctor ligula sapien velit rutrum justo senectus ad pharetra, suspendisse leo commodo inceptos urna senectus id potenti, orci vulputate platea porttitor porta mi id senectus.\n" +
+                        "\n",
                     "banner":
                         {
                             "url": "//adpiler.s3.eu-central-1.amazonaws.com/ads/b8c8ff3dbb8398d07190ed6b876e162c_html/index.html",
@@ -267,8 +268,8 @@ export default new Vuex.Store({
                 {
                     "show" : false,
                     "title": "Case Study 4",
-                    "paragraph_1": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis.",
-                    "paragraph_2": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis.",
+                    "paragraph_1": "Elit odio suspendisse adipiscing felis ultrices fames tincidunt turpis inceptos velit pharetra, lacus class volutpat nisl consequat felis mollis habitant purus.",
+                    "paragraph_2": "Purus tincidunt arcu ultricies id ornare fames malesuada maecenas sollicitudin venenatis sapien etiam adipiscing, felis leo vitae elit phasellus iaculis fringilla curae netus mollis molestie.",
                     "banner":
                         {
                             "url": "//adpiler.s3.eu-central-1.amazonaws.com/ads/b8c8ff3dbb8398d07190ed6b876e162c_html/index.html",
