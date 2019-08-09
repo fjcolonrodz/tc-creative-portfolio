@@ -185,6 +185,169 @@ export default new Vuex.Store({
                                 ]
                             },
                         ],
+                    },
+                    {
+                        "name": "Add-Ons",
+                        "description": "Add-ons description.",
+                        "image": 'n/a',
+                        "template_sets": [
+                            {
+                                "name" : "Carousel",
+                                "show" : true,
+                                "templates": [
+                                    {
+                                        "url": "//adpiler.s3.eu-central-1.amazonaws.com/ads/b8c8ff3dbb8398d07190ed6b876e162c_html/index.html",
+                                        "width": "160",
+                                        "height": "600"
+                                    },
+                                    {
+                                        "url": "//adpiler.s3.eu-central-1.amazonaws.com/ads/b8c8ff3dbb8398d07190ed6b876e162c_html/index.html",
+                                        "width": "300",
+                                        "height": "600"
+                                    },
+                                    {
+                                        "url": "//adpiler.s3.eu-central-1.amazonaws.com/ads/b8c8ff3dbb8398d07190ed6b876e162c_html/index.html",
+                                        "width": "300",
+                                        "height": "250"
+                                    },
+                                    {
+                                        "url": "//adpiler.s3.eu-central-1.amazonaws.com/ads/b8c8ff3dbb8398d07190ed6b876e162c_html/index.html",
+                                        "width": "728",
+                                        "height": "90"
+                                    }
+                                ]
+                            },
+                            {
+                                "name" : "Star Rating",
+                                "show" : false,
+                                "templates": [
+                                    {
+                                        "url": "//adpiler.s3.eu-central-1.amazonaws.com/ads/b8c8ff3dbb8398d07190ed6b876e162c_html/index.html",
+                                        "width": "160",
+                                        "height": "600"
+                                    },
+                                    {
+                                        "url": "//adpiler.s3.eu-central-1.amazonaws.com/ads/b8c8ff3dbb8398d07190ed6b876e162c_html/index.html",
+                                        "width": "300",
+                                        "height": "600"
+                                    },
+                                    {
+                                        "url": "//adpiler.s3.eu-central-1.amazonaws.com/ads/b8c8ff3dbb8398d07190ed6b876e162c_html/index.html",
+                                        "width": "300",
+                                        "height": "250"
+                                    },
+                                    {
+                                        "url": "//adpiler.s3.eu-central-1.amazonaws.com/ads/b8c8ff3dbb8398d07190ed6b876e162c_html/index.html",
+                                        "width": "728",
+                                        "height": "90"
+                                    }
+                                ]
+                            },
+                            {
+                                "name" : "Weather Widget",
+                                "show" : false,
+                                "templates": [
+                                    {
+                                        "url": "//adpiler.s3.eu-central-1.amazonaws.com/ads/b8c8ff3dbb8398d07190ed6b876e162c_html/index.html",
+                                        "width": "160",
+                                        "height": "600"
+                                    },
+                                    {
+                                        "url": "//adpiler.s3.eu-central-1.amazonaws.com/ads/b8c8ff3dbb8398d07190ed6b876e162c_html/index.html",
+                                        "width": "300",
+                                        "height": "600"
+                                    },
+                                    {
+                                        "url": "//adpiler.s3.eu-central-1.amazonaws.com/ads/b8c8ff3dbb8398d07190ed6b876e162c_html/index.html",
+                                        "width": "300",
+                                        "height": "250"
+                                    },
+                                    {
+                                        "url": "//adpiler.s3.eu-central-1.amazonaws.com/ads/b8c8ff3dbb8398d07190ed6b876e162c_html/index.html",
+                                        "width": "728",
+                                        "height": "90"
+                                    }
+                                ]
+                            },
+                            {
+                                "name" : "Parallax",
+                                "show" : false,
+                                "templates": [
+                                    {
+                                        "url": "//adpiler.s3.eu-central-1.amazonaws.com/ads/b8c8ff3dbb8398d07190ed6b876e162c_html/index.html",
+                                        "width": "160",
+                                        "height": "600"
+                                    },
+                                    {
+                                        "url": "//adpiler.s3.eu-central-1.amazonaws.com/ads/b8c8ff3dbb8398d07190ed6b876e162c_html/index.html",
+                                        "width": "300",
+                                        "height": "600"
+                                    },
+                                    {
+                                        "url": "//adpiler.s3.eu-central-1.amazonaws.com/ads/b8c8ff3dbb8398d07190ed6b876e162c_html/index.html",
+                                        "width": "300",
+                                        "height": "250"
+                                    },
+                                    {
+                                        "url": "//adpiler.s3.eu-central-1.amazonaws.com/ads/b8c8ff3dbb8398d07190ed6b876e162c_html/index.html",
+                                        "width": "728",
+                                        "height": "90"
+                                    }
+                                ]
+                            },
+                            {
+                                "name" : "Interactive Banners",
+                                "show" : false,
+                                "templates": [
+                                    {
+                                        "url": "//adpiler.s3.eu-central-1.amazonaws.com/ads/b8c8ff3dbb8398d07190ed6b876e162c_html/index.html",
+                                        "width": "160",
+                                        "height": "600"
+                                    },
+                                    {
+                                        "url": "//adpiler.s3.eu-central-1.amazonaws.com/ads/b8c8ff3dbb8398d07190ed6b876e162c_html/index.html",
+                                        "width": "300",
+                                        "height": "600"
+                                    },
+                                    {
+                                        "url": "//adpiler.s3.eu-central-1.amazonaws.com/ads/b8c8ff3dbb8398d07190ed6b876e162c_html/index.html",
+                                        "width": "300",
+                                        "height": "250"
+                                    },
+                                    {
+                                        "url": "//adpiler.s3.eu-central-1.amazonaws.com/ads/b8c8ff3dbb8398d07190ed6b876e162c_html/index.html",
+                                        "width": "728",
+                                        "height": "90"
+                                    }
+                                ]
+                            },
+                            {
+                                "name" : "Booking MasK",
+                                "show" : false,
+                                "templates": [
+                                    {
+                                        "url": "//adpiler.s3.eu-central-1.amazonaws.com/ads/b8c8ff3dbb8398d07190ed6b876e162c_html/index.html",
+                                        "width": "160",
+                                        "height": "600"
+                                    },
+                                    {
+                                        "url": "//adpiler.s3.eu-central-1.amazonaws.com/ads/b8c8ff3dbb8398d07190ed6b876e162c_html/index.html",
+                                        "width": "300",
+                                        "height": "600"
+                                    },
+                                    {
+                                        "url": "//adpiler.s3.eu-central-1.amazonaws.com/ads/b8c8ff3dbb8398d07190ed6b876e162c_html/index.html",
+                                        "width": "300",
+                                        "height": "250"
+                                    },
+                                    {
+                                        "url": "//adpiler.s3.eu-central-1.amazonaws.com/ads/b8c8ff3dbb8398d07190ed6b876e162c_html/index.html",
+                                        "width": "728",
+                                        "height": "90"
+                                    }
+                                ]
+                            },
+                        ],
                     }
                 ]
             },

@@ -7,7 +7,8 @@
                 <div id="change_template_buttons">
                     <button v-for="(set, index) in item.template_sets" :key="index" class="change_template" :class="active(set)"
                             @click="changeTemplate(item.template_sets, set)">
-                        {{ index + 1 }}
+                        <span v-if="set.name"> {{ set.name }}</span>
+                        <span v-else>{{ index + 1 }}</span>
                     </button>
                 </div>
                 <img :src="item.image" alt="">
@@ -80,13 +81,15 @@
     }
 
     #change_template_buttons {
+        display: flex;
+        flex-wrap: wrap;
         margin: 3em 0;
     }
 
     .change_template {
         border: 2px solid #005eb8;
         color: #005eb8;
-        margin-right: 1em;
+        margin: 0 1em 1em 0;
         padding: .5em .8em;
         text-decoration: none;
         font-size: 20px;
