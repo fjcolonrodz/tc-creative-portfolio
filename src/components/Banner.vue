@@ -20,4 +20,16 @@
         justify-content: space-between;
         border: 0;
     }
+
+    /* Extra small devices (phones, 600px and down) */
+    @media only screen and (max-width: 600px) {
+        iframe {
+            display: flex;
+            flex-wrap: wrap;
+            /*margin: 0 1.2em .8em 1.2em;*/
+            /*justify-content: space-between;*/
+            border: 0;
+            flex-direction: row;
+        }
+    }
 </style>

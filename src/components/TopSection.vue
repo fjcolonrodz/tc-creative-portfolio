@@ -25,8 +25,6 @@
                 <a class="button" href="#social_videos">Social Videos</a>
                 <a class="button" href="#case_studies">Case Studies</a>
             </div>
-
-<!--            <img class="google_partner" src="../assets/google-partner.png" alt="">-->
         </div>
 
     </div>
@@ -113,4 +111,55 @@
         overflow: hidden;
         position: relative;
     }
+
+    /*
+        Responsive Media Queries
+    */
+
+    /* Extra small devices (phones, 600px and down) */
+    @media only screen and (max-width: 600px) {
+        #background .image {
+            width: auto;  /*width of parent container*/
+            height: 650px; /*height of parent container*/
+            object-fit: contain;
+            position: relative;
+            top: 50%;
+            transform: translateY(-50%);
+        }
+
+        #content {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            padding: 2em;
+        }
+
+        #content .button {
+            border: 1px solid white;
+            border-radius: .25em;
+            color: white;
+            font-size: 22px;
+            font-weight: bold;
+            margin: 1em auto;
+            padding: .5em 2em;
+            text-decoration: none;
+            transition:all 0.3s ease;
+            display: block;
+            width: 50%;
+            text-align: center;
+        }
+    }
+
+    /* Small devices (portrait tablets and large phones, 600px and up) */
+    @media only screen and (min-width: 600px) {}
+
+    /* Medium devices (landscape tablets, 768px and up) */
+    @media only screen and (min-width: 768px) {}
+
+    /* Large devices (laptops/desktops, 992px and up) */
+    @media only screen and (min-width: 992px) {}
+
+    /* Extra large devices (large laptops and desktops, 1200px and up) */
+    @media only screen and (min-width: 1200px) {}
 </style>

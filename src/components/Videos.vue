@@ -29,4 +29,18 @@
     video {
         margin: 0 auto 1.2em auto;
     }
+
+    /* Extra small devices (phones, 600px and down) */
+    @media only screen and (max-width: 600px) {
+        #videos {
+            display: flex;
+            flex-wrap: wrap;
+            padding: 0 1.2em .8em 1.2em;
+            justify-content: center;
+        }
+
+        video {
+            margin: 0 auto 1.2em auto;
+        }
+    }
 </style>

@@ -138,4 +138,29 @@
         align-items: center;
         justify-content: center;
     }
+
+    /* Extra small devices (phones, 600px and down) */
+    @media only screen and (max-width: 600px) {
+        #case_studies {
+            padding: 2em;
+        }
+
+        .line {
+            position: absolute;
+            top: 100px;
+            left: 2em;
+            width: 20px;
+            height: 2px;
+            background: #005eb8;
+        }
+
+        #cases {
+            /*background: red;*/
+            flex-direction: column;
+        }
+
+        #change_template_buttons {
+            margin: 3em auto;
+        }
+    }
 </style>

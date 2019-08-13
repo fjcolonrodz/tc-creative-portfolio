@@ -81,10 +81,6 @@
         background: #005eb8;
     }
 
-    .social {
-        top: 95px;
-    }
-
     #content {
         display: flex;
     }
@@ -105,7 +101,7 @@
     }
 
     #change_template_buttons {
-        margin: 3em 0;
+        margin: 3em ;
     }
 
     .change_template {
@@ -129,5 +125,26 @@
     .active {
         background: #005eb8;
         color: white;
+    }
+
+    /* Extra small devices (phones, 600px and down) */
+    @media only screen and (max-width: 600px) {
+        #products {
+            padding: 2em;
+            position: relative;
+        }
+
+        .line {
+            position: absolute;
+            top: 100px;
+            left: 2em;
+            width: 20px;
+            height: 2px;
+            background: #005eb8;
+        }
+
+        #content {
+            flex-direction: column;
+        }
     }
 </style>

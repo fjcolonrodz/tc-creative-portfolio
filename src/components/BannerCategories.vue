@@ -80,6 +80,12 @@
         font-weight: lighter;
     }
 
+    #description img {
+        display: block;
+        margin: 0 auto;
+        height: 200px;
+    }
+
     #change_template_buttons {
         display: flex;
         flex-wrap: wrap;
@@ -107,9 +113,34 @@
         color: white;
     }
 
-    #description img {
-        display: block;
-        margin: 0 auto;
-        height: 200px;
+    /* Extra small devices (phones, 600px and down) */
+    @media only screen and (max-width: 600px) {
+        #categories {
+            flex-direction: column;
+        }
+
+        #description img {
+            display: none;
+        }
+
+        #banners {
+            justify-content: center;
+        }
+
+        #change_template_buttons {
+            justify-content: center;
+        }
+
+        .banner:nth-child(1) {
+            display: none;
+        }
+
+        .banner:nth-child(3) {
+            display: none;
+        }
+
+        .banner:nth-child(4) {
+            display: none;
+        }
     }
 </style>
