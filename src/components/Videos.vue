@@ -2,7 +2,7 @@
     <div>
         <div id="videos" v-if="item.show">
             <div v-for="(video, index) in item.videos" :key="index">
-                <video width="320" height="320" controls>
+                <video controls>
                     <source :src="video.url" type="video/mp4">
                     Your browser does not support the video tag.
                 </video>
@@ -22,25 +22,26 @@
     #videos {
         display: flex;
         flex-wrap: wrap;
-        padding: 0 1.2em .8em 1.2em;
         justify-content: space-between;
+        padding-left: 1em;
     }
 
     video {
-        margin: 0 auto 1.2em auto;
+        height: 320px;
+        margin: 0 auto 1.5em auto;
+        width: 320px;
     }
 
     /* Extra small devices (phones, 600px and down) */
     @media only screen and (max-width: 600px) {
         #videos {
-            display: flex;
-            flex-wrap: wrap;
-            padding: 0 1.2em .8em 1.2em;
             justify-content: center;
+            padding-left: 0;
         }
 
         video {
-            margin: 0 auto 1.2em auto;
+            height: 500px;
+            width: 500px;
         }
     }
 </style>

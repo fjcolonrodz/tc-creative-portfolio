@@ -60,8 +60,11 @@
 </script>
 
 <style scoped>
-    #products {
-        padding: 1em 9em;
+    #display_ads {
+        position: relative;
+    }
+
+    #social_videos {
         position: relative;
     }
 
@@ -73,12 +76,12 @@
     }
 
     .line {
-        position: absolute;
-        top: 85px;
-        left: 143px;
-        width: 20px;
-        height: 2px;
         background: #005eb8;
+        height: 2px;
+        position: absolute;
+        left: 0;
+        top: 40px;
+        width: 20px;
     }
 
     #content {
@@ -86,7 +89,9 @@
     }
 
     #description {
+        display: flex;
         flex: 1;
+        flex-direction: column;
     }
 
     #video_categories {
@@ -101,14 +106,15 @@
     }
 
     #change_template_buttons {
-        margin: 3em ;
+        display: flex;
+        flex-direction: column;
+        margin: 3em;
     }
 
     .change_template {
         border: 2px solid #005eb8;
         color: #005eb8;
-        display: block;
-        margin: 1em;
+        margin: .5em;
         padding: .5em 0;
         text-decoration: none;
         font-size: 20px;
@@ -129,22 +135,16 @@
 
     /* Extra small devices (phones, 600px and down) */
     @media only screen and (max-width: 600px) {
-        #products {
-            padding: 2em;
-            position: relative;
-        }
-
-        .line {
-            position: absolute;
-            top: 100px;
-            left: 2em;
-            width: 20px;
-            height: 2px;
-            background: #005eb8;
-        }
-
         #content {
+            display: flex;
             flex-direction: column;
+        }
+
+        #change_template_buttons {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin: 1.5em 0;
         }
     }
 </style>

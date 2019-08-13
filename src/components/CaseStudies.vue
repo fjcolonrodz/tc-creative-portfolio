@@ -1,32 +1,35 @@
 <template>
     <div id="case_studies">
-        <div class="title">
-            <h2>{{ caseStudies.name}}</h2>
-            <div class="line"></div>
-        </div>
-        <template v-for="(item, index) in caseStudies.cases" >
-            <div id="cases" v-if="item.show" :key="index" >
-                <div class="content">
-                    <h3>{{ item.title }}</h3>
-                    <p>
-                        {{ item.paragraph_1 }}
-                    </p>
-
-                    <p>
-                        {{ item.paragraph_2 }}
-                    </p>
-                </div>
-                <div class="media">
-                    <banner :banner="item.banner" class="banner"></banner>
-                </div>
+        <div id="case_study">
+            <div class="title">
+                <h2>{{ caseStudies.name}}</h2>
+                <div class="line"></div>
             </div>
-        </template>
 
-        <div id="change_template_buttons">
-            <button v-for="(item, index) in caseStudies.cases" :key="index" class="change_template" :class="active(item)"
-                    @click="changeTemplate(caseStudies.cases, item)">
-                {{ index + 1 }}
-            </button>
+            <template v-for="(item, index) in caseStudies.cases" >
+                <div id="case" v-if="item.show" :key="index" >
+                    <div class="content">
+                        <h3>{{ item.title }}</h3>
+                        <p>
+                            {{ item.paragraph_1 }}
+                        </p>
+
+                        <p>
+                            {{ item.paragraph_2 }}
+                        </p>
+                    </div>
+                    <div class="media">
+                        <banner :banner="item.banner" class="banner"></banner>
+                    </div>
+                </div>
+            </template>
+
+            <div id="change_template_buttons">
+                <button v-for="(item, index) in caseStudies.cases" :key="index" class="change_template" :class="active(item)"
+                        @click="changeTemplate(caseStudies.cases, item)">
+                    {{ index + 1 }}
+                </button>
+            </div>
         </div>
     </div>
 </template>
@@ -62,8 +65,7 @@
 </script>
 
 <style scoped>
-    #case_studies {
-        padding: 1em 9em;
+    #case_study {
         position: relative;
     }
 
@@ -75,21 +77,21 @@
     }
 
     .line {
-        position: absolute;
-        top: 85px;
-        left: 143px;
-        width: 20px;
-        height: 2px;
         background: #005eb8;
+        height: 2px;
+        position: absolute;
+        left: 0;
+        top: 40px;
+        width: 20px;
     }
 
-    #cases {
-        /*background: red;*/
+    #case {
+        align-items: center;
         display: flex;
+        flex-direction: row;
     }
 
     .content {
-        /*background: green;*/
         flex: 2;
     }
 
@@ -106,18 +108,23 @@
         font-weight: lighter;
     }
 
+    .media {
+        flex: 1;
+    }
+
     #change_template_buttons {
-        margin: 3em 0;
+        display: flex;
+        flex-direction: row;
     }
 
     .change_template {
         border: 2px solid #005eb8;
         color: #005eb8;
+        font-size: 20px;
+        font-weight: bold;
         margin-right: 1em;
         padding: .5em .8em;
         text-decoration: none;
-        font-size: 20px;
-        font-weight: bold;
         transition:all 0.3s ease;
     }
 
@@ -131,36 +138,17 @@
         color: white;
     }
 
-    .media {
-        display: flex;
-        /*background: blue;*/
-        flex: 1;
-        align-items: center;
-        justify-content: center;
-    }
-
     /* Extra small devices (phones, 600px and down) */
     @media only screen and (max-width: 600px) {
-        #case_studies {
-            padding: 2em;
-        }
-
-        .line {
-            position: absolute;
-            top: 100px;
-            left: 2em;
-            width: 20px;
-            height: 2px;
-            background: #005eb8;
-        }
-
-        #cases {
-            /*background: red;*/
+        #case {
             flex-direction: column;
         }
 
         #change_template_buttons {
-            margin: 3em auto;
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            margin-top: 1em;
         }
     }
 </style>

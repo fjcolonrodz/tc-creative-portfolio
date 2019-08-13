@@ -26,8 +26,6 @@
         iframe {
             display: flex;
             flex-wrap: wrap;
-            /*margin: 0 1.2em .8em 1.2em;*/
-            /*justify-content: space-between;*/
             border: 0;
             flex-direction: row;
         }

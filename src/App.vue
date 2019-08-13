@@ -1,9 +1,11 @@
 <template>
     <div id="app">
         <top-section></top-section>
-        <products :product="displayAds" :banners="true"></products>
-        <products :product="socialVideos" :videos="true"></products>
-        <case-studies></case-studies>
+        <div id="container">
+            <products id="banners" :product="displayAds" :banners="true"></products>
+            <products id="videos" :product="socialVideos" :videos="true"></products>
+            <case-studies></case-studies>
+        </div>
         <footer-section></footer-section>
     </div>
 </template>
@@ -31,5 +33,18 @@
 </script>
 
 <style>
+    #container {
+        position: relative;
+        margin: 1em 9em;
+        display: flex;
+        flex-direction: column;
+    }
 
+    /* Extra small devices (phones, 600px and down) */
+    @media only screen and (max-width: 600px) {
+        #container {
+            margin: 0 2em;
+            position: relative;
+        }
+    }
 </style>

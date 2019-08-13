@@ -143,7 +143,7 @@
         }
 
         #content .button {
-            margin-bottom: .5em;
+            margin-bottom: .75em;
             padding: .5em 0;
             text-align: center;
             width: 100%;

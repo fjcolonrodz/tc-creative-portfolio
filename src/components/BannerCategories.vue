@@ -1,26 +1,25 @@
 <template>
-    <div>
-        <div id="categories">
-            <div id="description">
-                <h3>{{ item.name }}</h3>
-                <p>{{ item.description }}</p>
-                <div id="change_template_buttons">
-                    <button v-for="(set, index) in item.template_sets" :key="index" class="change_template" :class="active(set)"
-                            @click="changeTemplate(item.template_sets, set)">
-                        <span v-if="set.name"> {{ set.name }}</span>
-                        <span v-else>{{ index + 1 }}</span>
-                    </button>
-                </div>
-                <img :src="item.image" alt="">
+    <div id="categories">
+        <div id="description">
+            <h3>{{ item.name }}</h3>
+            <p>{{ item.description }}</p>
+            <div id="change_template_buttons">
+                <button v-for="(set, index) in item.template_sets" :key="index" class="change_template"
+                        :class="active(set)"
+                        @click="changeTemplate(item.template_sets, set)">
+                    <span v-if="set.name"> {{ set.name }}</span>
+                    <span v-else>{{ index + 1 }}</span>
+                </button>
             </div>
-
-            <template v-for="(set, index) in item.template_sets">
-                <div id="banners" v-if="set.show" :key="index">
-                    <banner v-for="(banner, index) in item.template_sets[0].templates" :key="index" :banner="banner"
-                            class="banner"></banner>
-                </div>
-            </template>
+            <img :src="item.image" alt="">
         </div>
+
+        <template v-for="(set, index) in item.template_sets">
+            <div id="banners" v-if="set.show" :key="index">
+                <banner v-for="(banner, index) in item.template_sets[0].templates" :key="index" :banner="banner"
+                        class="banner"></banner>
+            </div>
+        </template>
     </div>
 </template>
 
@@ -33,10 +32,10 @@
             Banner
         },
         methods: {
-            active : function (set) {
+            active: function (set) {
                 return set.show ? 'active' : ''
             },
-            changeTemplate : function (sets, set) {
+            changeTemplate: function (sets, set) {
                 let currentSet = sets.filter(function (set) {
                     return set.show === true
                 });
@@ -100,7 +99,7 @@
         text-decoration: none;
         font-size: 20px;
         font-weight: bold;
-        transition:all 0.3s ease;
+        transition: all 0.3s ease;
     }
 
     .change_template:hover {
@@ -125,9 +124,11 @@
 
         #banners {
             justify-content: center;
+            padding-top: 0;
         }
 
         #change_template_buttons {
+            margin: 1.5em 0;
             justify-content: center;
         }
 
@@ -135,7 +136,7 @@
             display: none;
         }
 
-        .banner:nth-child(3) {
+        .banner:nth-child(2) {
             display: none;
         }
 

@@ -26,8 +26,8 @@
 <style scoped>
     #footer {
         position: relative;
-        padding: 1em 9em;
-        height: 485px;
+        margin: 1em 9em;
+        height: 430px;
     }
 
     #background {
@@ -41,11 +41,39 @@
     }
 
     #content {
-        padding-top: 11em;
+        padding-top: 7em;
         text-align: center;
     }
 
     #content img {
         width: 150px;
+    }
+
+    /* Extra small devices (phones, 600px and down) */
+    @media only screen and (max-width: 600px) {
+        #footer {
+            margin: 0 2em;
+            height: 400px;
+        }
+
+        #background {
+            position: absolute;
+            top: 375px;
+            z-index: -2;
+        }
+
+        #background .image {
+            opacity: 0.25;
+            width: 100%;
+        }
+
+        #content {
+            padding-top: 7em;
+            text-align: center;
+        }
+
+        #content img {
+            width: 150px;
+        }
     }
 </style>
