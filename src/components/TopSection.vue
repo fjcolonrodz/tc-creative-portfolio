@@ -37,10 +37,15 @@
 </script>
 
 <style scoped>
-    #background {
+    #top-section {
+        overflow: hidden;
         position: relative;
+    }
+
+    #background {
         height: 650px;
         overflow: hidden;
+        position: relative;
     }
 
     #background .image {
@@ -52,9 +57,9 @@
     }
 
     #background .shape {
-        position: absolute;
         left: -1175px;
         opacity: .75;
+        position: absolute;
         top: -550px;
         transform: rotate(-140deg);
         width: 1920px;
@@ -62,11 +67,17 @@
     }
 
     #content {
+        display: flex;
+        flex-direction: column;
+        margin: 5.5em 9em;
         position: absolute;
-        top: 0;
         left: 0;
-        width: 100%;
-        padding: 5.5em 9em;
+        top: 0;
+        width: 36%;
+    }
+
+    #content .logo {
+        width: 150px;
     }
 
     #content h1 {
@@ -80,10 +91,13 @@
         color: white;
         font-size: 25px;
         font-weight: lighter;
+        margin: .5em 0;
     }
 
     #content #ctas {
-        margin: 3em 0;
+        display: flex;
+        flex-direction: row;
+        margin: 1em 0;
     }
 
     #content .button {
@@ -103,15 +117,6 @@
         color: #005eb8;
     }
 
-    #content .logo, #content .google_partner {
-        width: 150px;
-    }
-
-    #top-section {
-        overflow: hidden;
-        position: relative;
-    }
-
     /*
         Responsive Media Queries
     */
@@ -119,35 +124,34 @@
     /* Extra small devices (phones, 600px and down) */
     @media only screen and (max-width: 600px) {
         #background .image {
-            width: auto;  /*width of parent container*/
-            height: 650px; /*height of parent container*/
+            height: 650px;
             object-fit: contain;
             position: relative;
             top: 50%;
             transform: translateY(-50%);
+            width: auto;
         }
 
         #content {
-            position: absolute;
-            top: 0;
-            left: 0;
+            margin: 2em;
+            width: 90%;
+        }
+
+        #content #ctas {
+            flex-direction: column;
             width: 100%;
-            padding: 2em;
         }
 
         #content .button {
-            border: 1px solid white;
-            border-radius: .25em;
-            color: white;
-            font-size: 22px;
-            font-weight: bold;
-            margin: 1em auto;
-            padding: .5em 2em;
-            text-decoration: none;
-            transition:all 0.3s ease;
-            display: block;
-            width: 50%;
+            margin-bottom: .5em;
+            padding: .5em 0;
             text-align: center;
+            width: 100%;
+        }
+
+        #content .button:hover {
+            background: white;
+            color: #005eb8;
         }
     }
 
