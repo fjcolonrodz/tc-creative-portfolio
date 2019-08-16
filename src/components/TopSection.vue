@@ -73,7 +73,7 @@
         position: absolute;
         left: 0;
         top: 0;
-        width: 36%;
+        width: 50%;
     }
 
     #content .logo {
