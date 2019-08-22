@@ -21,8 +21,12 @@
         border: 0;
     }
 
-    /* Extra small devices (phones, 600px and down) */
-    @media only screen and (max-width: 600px) {
+    /*
+        Responsive Media Queries
+    */
+
+    /* iPhone Size */
+    @media only screen and (max-width: 375px) {
         iframe {
             display: flex;
             flex-wrap: wrap;

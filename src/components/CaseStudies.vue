@@ -138,8 +138,25 @@
         color: white;
     }
 
-    /* Extra small devices (phones, 600px and down) */
-    @media only screen and (max-width: 600px) {
+    /*
+        Responsive Media Queries
+    */
+
+    /* iPhone Size */
+    @media only screen and (max-width: 375px) {
+        /*#case {*/
+        /*    flex-direction: column;*/
+        /*}*/
+
+        /*#change_template_buttons {*/
+        /*    display: flex;*/
+        /*    flex-direction: row;*/
+        /*    justify-content: center;*/
+        /*    margin-top: 1em;*/
+        /*}*/
+    }
+
+    @media only screen and (max-width: 768px) {
         #case {
             flex-direction: column;
         }

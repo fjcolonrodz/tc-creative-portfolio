@@ -32,16 +32,36 @@
         width: 320px;
     }
 
-    /* Extra small devices (phones, 600px and down) */
-    @media only screen and (max-width: 600px) {
+    /*
+        Responsive Media Queries
+    */
+
+    /* iPhone Size */
+    @media only screen and (max-width: 375px) {
         #videos {
             justify-content: center;
             padding-left: 0;
         }
 
         video {
-            height: 500px;
-            width: 500px;
+            height: 350px;
+            width: 350px;
+        }
+    }
+
+    /* iPad Size */
+    @media only screen and (min-width: 376px) and (max-width: 768px) {
+        video {
+            height: 325px;
+            width: 325px;
+        }
+    }
+
+    /* iPad Pro Size */
+    @media only screen and (min-width: 769px) and (max-width: 1024px) {
+        video {
+            height: 425px;
+            width: 425px;
         }
     }
 </style>

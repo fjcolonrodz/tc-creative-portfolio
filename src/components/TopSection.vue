@@ -11,12 +11,12 @@
             <h1>{{ $store.state.title }}</h1>
 
             <p>
-                {{ $store.state.description_1 }} <br>
-                {{ $store.state.description_2 }} <br>
+                {{ $store.state.description_1 }}
+                {{ $store.state.description_2 }}
                 {{ $store.state.description_3 }}
             </p>
             <p>
-                {{ $store.state.description_4 }} <br>
+                {{ $store.state.description_4 }}
                 {{ $store.state.description_5 }}
             </p>
 
@@ -73,7 +73,7 @@
         position: absolute;
         left: 0;
         top: 0;
-        width: 50%;
+        width: 36%;
     }
 
     #content .logo {
@@ -121,8 +121,8 @@
         Responsive Media Queries
     */
 
-    /* Extra small devices (phones, 600px and down) */
-    @media only screen and (max-width: 600px) {
+    /* iPhone Size */
+    @media only screen and (max-width: 375px) {
         #background .image {
             height: 650px;
             object-fit: contain;
@@ -133,8 +133,19 @@
         }
 
         #content {
-            margin: 2em;
+            margin: 2.5em 1em;
             width: 90%;
+        }
+
+        #content h1 {
+            color: white;
+            font-family: Amadeus;
+            font-size: 40px;
+            font-weight: normal;
+        }
+
+        #content p {
+            font-size: 1.3em;
         }
 
         #content #ctas {
@@ -155,15 +166,71 @@
         }
     }
 
-    /* Small devices (portrait tablets and large phones, 600px and up) */
-    @media only screen and (min-width: 600px) {}
+    /* iPad Size */
+    @media only screen and (min-width: 376px) and (max-width: 768px) {
+        #background .image {
+            height: 650px;
+            object-fit: contain;
+            position: relative;
+            top: 50%;
+            transform: translateY(-50%);
+            width: auto;
+        }
 
-    /* Medium devices (landscape tablets, 768px and up) */
-    @media only screen and (min-width: 768px) {}
+        #background .shape {
+            left: -1100px;
+        }
 
-    /* Large devices (laptops/desktops, 992px and up) */
-    @media only screen and (min-width: 992px) {}
+        #content {
+            margin: 3em 2.3em;
+            width: 90%;
+        }
 
-    /* Extra large devices (large laptops and desktops, 1200px and up) */
-    @media only screen and (min-width: 1200px) {}
+        #content h1 {
+            color: white;
+            font-family: Amadeus;
+            font-size: 44px;
+            font-weight: normal;
+        }
+
+        #content p {
+            font-size: 1.5em;
+        }
+
+        #content #ctas {
+            flex-direction: column;
+            width: 100%;
+        }
+
+        #content .button {
+            margin-bottom: .75em;
+            padding: .5em 0;
+            text-align: center;
+            width: 100%;
+        }
+
+        #content .button:hover {
+            background: white;
+            color: #005eb8;
+        }
+    }
+
+    /* iPad Pro Size */
+    @media only screen and (min-width: 769px) and (max-width: 1024px) {
+        #background {
+            height: 550px;
+        }
+        #background .image {
+            top: 0;
+        }
+
+        #background .shape {
+            left: -1200px;
+        }
+
+        #content {
+            margin: 4em 4em;
+            width: 67%;
+        }
+    }
 </style>

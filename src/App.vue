@@ -40,11 +40,30 @@
         flex-direction: column;
     }
 
-    /* Extra small devices (phones, 600px and down) */
-    @media only screen and (max-width: 600px) {
+    /*
+        Responsive Media Queries
+    */
+
+    /* iPhone Size */
+    @media only screen and (max-width: 375px) {
         #container {
             margin: 0 2em;
             position: relative;
+        }
+    }
+
+    /* iPad Size */
+    @media only screen and (min-width: 376px) and (max-width: 768px) {
+        #container {
+            margin: 0 2.3em;
+            position: relative;
+        }
+    }
+
+    /* iPad Pro Size */
+    @media only screen and (min-width: 769px) and (max-width: 1024px) {
+        #container {
+            margin: 0 4em;
         }
     }
 </style>
