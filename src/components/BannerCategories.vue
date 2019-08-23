@@ -16,7 +16,7 @@
 
         <template v-for="(set, index) in item.template_sets">
             <div id="banners" v-if="set.show" :key="index">
-                <banner v-for="(banner, index) in item.template_sets[0].templates" :key="index" :banner="banner"
+                <banner v-for="(banner, index) in set.templates" :key="index" :banner="banner"
                         class="banner"></banner>
             </div>
         </template>
