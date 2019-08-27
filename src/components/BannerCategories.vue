@@ -14,7 +14,12 @@
             <img :src="item.image" alt="">
         </div>
 
+        <loading class="loading" color="#009dd1" width="50"
+                :active.sync="isLoading" :can-cancel="false" :is-full-page="fullPage">
+        </loading>
+
         <template v-for="(set, index) in item.template_sets">
+
             <div id="banners" v-if="set.show" :key="index">
                 <banner v-for="(banner, index) in set.templates" :key="index" :banner="banner"
                         class="banner"></banner>
@@ -24,18 +29,26 @@
 </template>
 
 <script>
+    import Loading from 'vue-loading-overlay';
     import Banner from '../components/Banner.vue'
 
     export default {
         name: "BannerCategories",
+        data() {
+            return {
+                isLoading: false,
+                fullPage: true
+            }
+        },
         components: {
-            Banner
+            Banner, Loading
         },
         methods: {
             active: function (set) {
                 return set.show ? 'active' : ''
             },
             changeTemplate: function (sets, set) {
+                this.isLoading = true;
                 let currentSet = sets.filter(function (set) {
                     return set.show === true
                 });
@@ -43,6 +56,9 @@
 
                 set.show ? set.show = false : set.show = true;
 
+                setTimeout(() => {
+                    this.isLoading = false
+                },2500)
             }
         },
         props: ['item']
@@ -105,6 +121,12 @@
     .change_template:hover {
         background: #005eb8;
         color: white;
+    }
+
+    .loading {
+        position: relative;
+        left: 450px;
+        top: 300px
     }
 
     .active {

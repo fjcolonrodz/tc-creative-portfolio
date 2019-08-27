@@ -77,13 +77,13 @@
     }
 
     #content .logo {
-        width: 150px;
+        width: 200px;
     }
 
     #content h1 {
         color: white;
         font-family: Amadeus;
-        font-size: 46px;
+        font-size: 45px;
         font-weight: normal;
     }
 

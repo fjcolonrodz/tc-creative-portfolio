@@ -156,22 +156,22 @@ export default new Vuex.Store({
                                 "show" : false,
                                 "templates": [
                                     {
-                                        "url": "//adpiler.s3.eu-central-1.amazonaws.com/ads/b8c8ff3dbb8398d07190ed6b876e162c_html/index.html",
+                                        "url": "http://clients.tci.travelclick.net/mediacreative/landing_beta/banners/160x600_YYYYMMDD_Template_1/index.html",
                                         "width": "160",
                                         "height": "600"
                                     },
                                     {
-                                        "url": "//adpiler.s3.eu-central-1.amazonaws.com/ads/b8c8ff3dbb8398d07190ed6b876e162c_html/index.html",
+                                        "url": "http://clients.tci.travelclick.net/mediacreative/landing_beta/banners/160x600_YYYYMMDD_Template_1/index.html",
                                         "width": "300",
                                         "height": "600"
                                     },
                                     {
-                                        "url": "//adpiler.s3.eu-central-1.amazonaws.com/ads/b8c8ff3dbb8398d07190ed6b876e162c_html/index.html",
+                                        "url": "http://clients.tci.travelclick.net/mediacreative/landing_beta/banners/160x600_YYYYMMDD_Template_1/index.html",
                                         "width": "300",
                                         "height": "250"
                                     },
                                     {
-                                        "url": "//adpiler.s3.eu-central-1.amazonaws.com/ads/b8c8ff3dbb8398d07190ed6b876e162c_html/index.html",
+                                        "url": "http://clients.tci.travelclick.net/mediacreative/landing_beta/banners/160x600_YYYYMMDD_Template_1/index.html",
                                         "width": "728",
                                         "height": "90"
                                     }

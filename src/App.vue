@@ -4,7 +4,7 @@
         <div id="container">
             <products id="banners" :product="displayAds" :banners="true"></products>
             <products id="videos" :product="socialVideos" :videos="true"></products>
-            <case-studies></case-studies>
+<!--            <case-studies></case-studies>-->
         </div>
         <footer-section></footer-section>
     </div>
