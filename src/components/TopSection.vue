@@ -69,11 +69,11 @@
     #content {
         display: flex;
         flex-direction: column;
-        margin: 5.5em 9em;
+        margin: 5.5em 7em;
         position: absolute;
         left: 0;
         top: 0;
-        width: 36%;
+        width: 50%;
     }
 
     #content .logo {

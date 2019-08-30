@@ -292,8 +292,86 @@ export default new Vuex.Store({
                         "image": 'n/a',
                         "template_sets": [
                             {
-                                "name" : "Star Rating",
+                                "name" : "Booking Mask",
                                 "show" : true,
+                                "templates": [
+                                    {
+                                        "url": "//adpiler.s3.eu-central-1.amazonaws.com/ads/762f6aa33df21d5cfe1ac120484fd173_html/index.html",
+                                        "width": "160",
+                                        "height": "600"
+                                    },
+                                    {
+                                        "url": "//adpiler.s3.eu-central-1.amazonaws.com/ads/762f6aa33df21d5cfe1ac120484fd173_html/index.html",
+                                        "width": "300",
+                                        "height": "600"
+                                    },
+                                    {
+                                        "url": "//adpiler.s3.eu-central-1.amazonaws.com/ads/762f6aa33df21d5cfe1ac120484fd173_html/index.html",
+                                        "width": "300",
+                                        "height": "250"
+                                    },
+                                    {
+                                        "url": "//adpiler.s3.eu-central-1.amazonaws.com/ads/762f6aa33df21d5cfe1ac120484fd173_html/index.html",
+                                        "width": "728",
+                                        "height": "90"
+                                    }
+                                ]
+                            },
+                            {
+                                "name" : "Interactive 1",
+                                "show" : false,
+                                "templates": [
+                                    {
+                                        "url": "//adpiler.s3.eu-central-1.amazonaws.com/ads/04ffc0ab5f940a8802e492a1a75dfcea_html/index.html",
+                                        "width": "160",
+                                        "height": "600"
+                                    },
+                                    {
+                                        "url": "//adpiler.s3.eu-central-1.amazonaws.com/ads/04ffc0ab5f940a8802e492a1a75dfcea_html/index.html",
+                                        "width": "300",
+                                        "height": "600"
+                                    },
+                                    {
+                                        "url": "//adpiler.s3.eu-central-1.amazonaws.com/ads/04ffc0ab5f940a8802e492a1a75dfcea_html/index.html",
+                                        "width": "300",
+                                        "height": "250"
+                                    },
+                                    {
+                                        "url": "//adpiler.s3.eu-central-1.amazonaws.com/ads/04ffc0ab5f940a8802e492a1a75dfcea_html/index.html",
+                                        "width": "728",
+                                        "height": "90"
+                                    }
+                                ]
+                            },
+                            {
+                                "name" : "Interactive 2",
+                                "show" : false,
+                                "templates": [
+                                    {
+                                        "url": "//adpiler.s3.eu-central-1.amazonaws.com/ads/9df817cd1b31547ae2e4347b76bd5e6b_html/index.html",
+                                        "width": "160",
+                                        "height": "600"
+                                    },
+                                    {
+                                        "url": "//adpiler.s3.eu-central-1.amazonaws.com/ads/9df817cd1b31547ae2e4347b76bd5e6b_html/index.html",
+                                        "width": "300",
+                                        "height": "600"
+                                    },
+                                    {
+                                        "url": "//adpiler.s3.eu-central-1.amazonaws.com/ads/9df817cd1b31547ae2e4347b76bd5e6b_html/index.html",
+                                        "width": "300",
+                                        "height": "250"
+                                    },
+                                    {
+                                        "url": "//adpiler.s3.eu-central-1.amazonaws.com/ads/9df817cd1b31547ae2e4347b76bd5e6b_html/index.html",
+                                        "width": "728",
+                                        "height": "90"
+                                    }
+                                ]
+                            },
+                            {
+                                "name" : "Star Rating",
+                                "show" : false,
                                 "templates": [
                                     {
                                         "url": "//adpiler.s3.eu-central-1.amazonaws.com/ads/0c13c0f832a5b3988f9666c03713c376_html/index.html",

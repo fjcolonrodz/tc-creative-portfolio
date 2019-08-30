@@ -65,6 +65,7 @@
     }
 
     #social_videos {
+        padding-bottom: 3em;
         position: relative;
     }
 

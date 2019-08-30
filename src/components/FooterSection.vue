@@ -27,7 +27,6 @@
     #footer {
         position: relative;
         margin: 1em 9em;
-        height: 430px;
     }
 
     #background {
@@ -41,7 +40,6 @@
     }
 
     #content {
-        padding-top: 7em;
         text-align: center;
     }
 

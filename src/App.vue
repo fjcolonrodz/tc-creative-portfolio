@@ -35,7 +35,7 @@
 <style>
     #container {
         position: relative;
-        margin: 1em 9em;
+        margin: 1em 7em;
         display: flex;
         flex-direction: column;
     }
