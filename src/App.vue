@@ -3,6 +3,7 @@
         <top-section></top-section>
         <div id="container">
             <products id="banners" :product="displayAds" :banners="true"></products>
+            <products id="add_ons" :product="addOns" :add_ons="true"></products>
             <products id="videos" :product="socialVideos" :videos="true"></products>
 <!--            <case-studies></case-studies>-->
         </div>
@@ -25,8 +26,11 @@
             displayAds() {
                 return this.$store.state.products[0]
             },
-            socialVideos() {
+            addOns() {
                 return this.$store.state.products[1]
+            },
+            socialVideos() {
+                return this.$store.state.products[2]
             }
         }
     }

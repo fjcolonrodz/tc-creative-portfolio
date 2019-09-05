@@ -286,143 +286,146 @@ export default new Vuex.Store({
                             },
                         ],
                     },
+                ]
+            },
+            {
+                "name" : "Add-Ons",
+                "categories" : [
                     {
-                        "name": "Add-Ons",
-                        "description": "Add-ons description.",
-                        "image": 'n/a',
-                        "template_sets": [
+                        "name" : "Booking Mask",
+                        "show" : true,
+                        "description" : "Get the client to take the first step of their booking journey directly on the display ad, by allowing them to select the date and length of stay. This preselection will then auto populate on iHotelier booking engine to speed up the booking process.",
+                        "templates": [
                             {
-                                "name" : "Booking Mask",
-                                "show" : true,
-                                "templates": [
-                                    {
-                                        "url": "//adpiler.s3.eu-central-1.amazonaws.com/ads/762f6aa33df21d5cfe1ac120484fd173_html/index.html",
-                                        "width": "160",
-                                        "height": "600"
-                                    },
-                                    {
-                                        "url": "//adpiler.s3.eu-central-1.amazonaws.com/ads/762f6aa33df21d5cfe1ac120484fd173_html/index.html",
-                                        "width": "300",
-                                        "height": "600"
-                                    },
-                                    {
-                                        "url": "//adpiler.s3.eu-central-1.amazonaws.com/ads/762f6aa33df21d5cfe1ac120484fd173_html/index.html",
-                                        "width": "300",
-                                        "height": "250"
-                                    },
-                                    {
-                                        "url": "//adpiler.s3.eu-central-1.amazonaws.com/ads/762f6aa33df21d5cfe1ac120484fd173_html/index.html",
-                                        "width": "728",
-                                        "height": "90"
-                                    }
-                                ]
+                                "url": "//adpiler.s3.eu-central-1.amazonaws.com/ads/762f6aa33df21d5cfe1ac120484fd173_html/index.html",
+                                "width": "160",
+                                "height": "600"
                             },
                             {
-                                "name" : "Interactive 1",
-                                "show" : false,
-                                "templates": [
-                                    {
-                                        "url": "//adpiler.s3.eu-central-1.amazonaws.com/ads/04ffc0ab5f940a8802e492a1a75dfcea_html/index.html",
-                                        "width": "160",
-                                        "height": "600"
-                                    },
-                                    {
-                                        "url": "//adpiler.s3.eu-central-1.amazonaws.com/ads/04ffc0ab5f940a8802e492a1a75dfcea_html/index.html",
-                                        "width": "300",
-                                        "height": "600"
-                                    },
-                                    {
-                                        "url": "//adpiler.s3.eu-central-1.amazonaws.com/ads/04ffc0ab5f940a8802e492a1a75dfcea_html/index.html",
-                                        "width": "300",
-                                        "height": "250"
-                                    },
-                                    {
-                                        "url": "//adpiler.s3.eu-central-1.amazonaws.com/ads/04ffc0ab5f940a8802e492a1a75dfcea_html/index.html",
-                                        "width": "728",
-                                        "height": "90"
-                                    }
-                                ]
+                                "url": "//adpiler.s3.eu-central-1.amazonaws.com/ads/762f6aa33df21d5cfe1ac120484fd173_html/index.html",
+                                "width": "300",
+                                "height": "600"
                             },
                             {
-                                "name" : "Interactive 2",
-                                "show" : false,
-                                "templates": [
-                                    {
-                                        "url": "//adpiler.s3.eu-central-1.amazonaws.com/ads/9df817cd1b31547ae2e4347b76bd5e6b_html/index.html",
-                                        "width": "160",
-                                        "height": "600"
-                                    },
-                                    {
-                                        "url": "//adpiler.s3.eu-central-1.amazonaws.com/ads/9df817cd1b31547ae2e4347b76bd5e6b_html/index.html",
-                                        "width": "300",
-                                        "height": "600"
-                                    },
-                                    {
-                                        "url": "//adpiler.s3.eu-central-1.amazonaws.com/ads/9df817cd1b31547ae2e4347b76bd5e6b_html/index.html",
-                                        "width": "300",
-                                        "height": "250"
-                                    },
-                                    {
-                                        "url": "//adpiler.s3.eu-central-1.amazonaws.com/ads/9df817cd1b31547ae2e4347b76bd5e6b_html/index.html",
-                                        "width": "728",
-                                        "height": "90"
-                                    }
-                                ]
+                                "url": "//adpiler.s3.eu-central-1.amazonaws.com/ads/762f6aa33df21d5cfe1ac120484fd173_html/index.html",
+                                "width": "300",
+                                "height": "250"
                             },
                             {
-                                "name" : "Star Rating",
-                                "show" : false,
-                                "templates": [
-                                    {
-                                        "url": "//adpiler.s3.eu-central-1.amazonaws.com/ads/0c13c0f832a5b3988f9666c03713c376_html/index.html",
-                                        "width": "160",
-                                        "height": "600"
-                                    },
-                                    {
-                                        "url": "//adpiler.s3.eu-central-1.amazonaws.com/ads/2c9c068a6335ca0ef20aa3bf58c2b6cd_html/index.html",
-                                        "width": "300",
-                                        "height": "600"
-                                    },
-                                    {
-                                        "url": "//adpiler.s3.eu-central-1.amazonaws.com/ads/98d639000b239383febdea6742cd429f_html/index.html",
-                                        "width": "300",
-                                        "height": "250"
-                                    },
-                                    {
-                                        "url": "//adpiler.s3.eu-central-1.amazonaws.com/ads/a23671c208b78917efca2eee7e242bb4_html/index.html",
-                                        "width": "728",
-                                        "height": "90"
-                                    }
-                                ]
+                                "url": "//adpiler.s3.eu-central-1.amazonaws.com/ads/762f6aa33df21d5cfe1ac120484fd173_html/index.html",
+                                "width": "728",
+                                "height": "90"
+                            }
+                        ]
+                    },
+                    {
+                        "name" : "Interactive 1",
+                        "show" : false,
+                        "description" : "Give the customer the freedom to discover the hotel and interact with the banner without being immediately redirected to the website.",
+                        "templates": [
+                            {
+                                "url": "//adpiler.s3.eu-central-1.amazonaws.com/ads/04ffc0ab5f940a8802e492a1a75dfcea_html/index.html",
+                                "width": "160",
+                                "height": "600"
                             },
                             {
-                                "name" : "Weather Widget",
-                                "show" : false,
-                                "templates": [
-                                    {
-                                        "url": "//adpiler.s3.eu-central-1.amazonaws.com/ads/18c9a7a6b0be372cf04d401abfd80899_html/index.html",
-                                        "width": "160",
-                                        "height": "600"
-                                    },
-                                    {
-                                        "url": "//adpiler.s3.eu-central-1.amazonaws.com/ads/e0533ac52ac42140cf5a49d92c28c718_html/index.html",
-                                        "width": "300",
-                                        "height": "600"
-                                    },
-                                    {
-                                        "url": "//adpiler.s3.eu-central-1.amazonaws.com/ads/585881580a0098077568e8a0647c2d9c_html/index.html",
-                                        "width": "300",
-                                        "height": "250"
-                                    },
-                                    {
-                                        "url": "//adpiler.s3.eu-central-1.amazonaws.com/ads/c635f028f6b2edc00aade54d39ebee9d_html/index.html",
-                                        "width": "728",
-                                        "height": "90"
-                                    }
-                                ]
+                                "url": "//adpiler.s3.eu-central-1.amazonaws.com/ads/04ffc0ab5f940a8802e492a1a75dfcea_html/index.html",
+                                "width": "300",
+                                "height": "600"
                             },
-                        ],
-                    }
+                            {
+                                "url": "//adpiler.s3.eu-central-1.amazonaws.com/ads/04ffc0ab5f940a8802e492a1a75dfcea_html/index.html",
+                                "width": "300",
+                                "height": "250"
+                            },
+                            {
+                                "url": "//adpiler.s3.eu-central-1.amazonaws.com/ads/04ffc0ab5f940a8802e492a1a75dfcea_html/index.html",
+                                "width": "728",
+                                "height": "90"
+                            }
+                        ]
+                    },
+                    {
+                        "name" : "Interactive 2",
+                        "show" : false,
+                        "description" : "Give the customer the freedom to discover the hotel and interact with the banner without being immediately redirected to the website.",
+                        "templates": [
+                            {
+                                "url": "//adpiler.s3.eu-central-1.amazonaws.com/ads/9df817cd1b31547ae2e4347b76bd5e6b_html/index.html",
+                                "width": "160",
+                                "height": "600"
+                            },
+                            {
+                                "url": "//adpiler.s3.eu-central-1.amazonaws.com/ads/9df817cd1b31547ae2e4347b76bd5e6b_html/index.html",
+                                "width": "300",
+                                "height": "600"
+                            },
+                            {
+                                "url": "//adpiler.s3.eu-central-1.amazonaws.com/ads/9df817cd1b31547ae2e4347b76bd5e6b_html/index.html",
+                                "width": "300",
+                                "height": "250"
+                            },
+                            {
+                                "url": "//adpiler.s3.eu-central-1.amazonaws.com/ads/9df817cd1b31547ae2e4347b76bd5e6b_html/index.html",
+                                "width": "728",
+                                "height": "90"
+                            }
+                        ]
+                    },
+                    {
+                        "name" : "Star Rating",
+                        "show" : false,
+                        "description" : "Showcase customers rating directly on the banner to establish credibility and quality. Ratings can be taken from TripAdvisor or any other rating place.",
+                        "templates": [
+                            {
+                                "url": "//adpiler.s3.eu-central-1.amazonaws.com/ads/0c13c0f832a5b3988f9666c03713c376_html/index.html",
+                                "width": "160",
+                                "height": "600"
+                            },
+                            {
+                                "url": "//adpiler.s3.eu-central-1.amazonaws.com/ads/2c9c068a6335ca0ef20aa3bf58c2b6cd_html/index.html",
+                                "width": "300",
+                                "height": "600"
+                            },
+                            {
+                                "url": "//adpiler.s3.eu-central-1.amazonaws.com/ads/98d639000b239383febdea6742cd429f_html/index.html",
+                                "width": "300",
+                                "height": "250"
+                            },
+                            {
+                                "url": "//adpiler.s3.eu-central-1.amazonaws.com/ads/a23671c208b78917efca2eee7e242bb4_html/index.html",
+                                "width": "728",
+                                "height": "90"
+                            }
+                        ]
+                    },
+                    {
+                        "name" : "Weather Widget",
+                        "show" : false,
+                        "description" : "Presents live weather at destination in order to encourage the desire to travel.",
+                        "templates": [
+                            {
+                                "url": "//adpiler.s3.eu-central-1.amazonaws.com/ads/18c9a7a6b0be372cf04d401abfd80899_html/index.html",
+                                "width": "160",
+                                "height": "600"
+                            },
+                            {
+                                "url": "//adpiler.s3.eu-central-1.amazonaws.com/ads/e0533ac52ac42140cf5a49d92c28c718_html/index.html",
+                                "width": "300",
+                                "height": "600"
+                            },
+                            {
+                                "url": "//adpiler.s3.eu-central-1.amazonaws.com/ads/585881580a0098077568e8a0647c2d9c_html/index.html",
+                                "width": "300",
+                                "height": "250"
+                            },
+                            {
+                                "url": "//adpiler.s3.eu-central-1.amazonaws.com/ads/c635f028f6b2edc00aade54d39ebee9d_html/index.html",
+                                "width": "728",
+                                "height": "90"
+                            }
+                        ]
+                    },
                 ]
             },
             {
