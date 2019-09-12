@@ -22,7 +22,7 @@
     #videos {
         display: flex;
         flex-wrap: wrap;
-        justify-content: space-between;
+        justify-content: space-around;
         padding-left: 1em;
     }
 
