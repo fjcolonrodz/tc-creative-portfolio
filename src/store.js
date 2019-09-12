@@ -17,7 +17,8 @@ export default new Vuex.Store({
                 "categories": [
                     {
                         "name": "Templated Banners",
-                        "description": "No changes to template. Just fitting of photo or video into our banners. Up to 4 updates allowed per year.",
+                        "description": "No changes to template. Just fitting of photo or video into our banners.",
+                        "updates" : "Up to 4 updates allowed per year.",
                         "image": require("./assets/building6.png"),
                         "template_sets": [
                             {
@@ -124,7 +125,8 @@ export default new Vuex.Store({
                     },
                     {
                         "name": "Personalized Banners",
-                        "description": "Specific adjustments to image or text. Up to 4 updates allowed per year.",
+                        "description": "Specific adjustments to image or text.",
+                        "updates" : "Up to 4 updates allowed per year.",
                         "image": require("./assets/Man3.png"),
                         "template_sets": [
                             {
@@ -152,36 +154,11 @@ export default new Vuex.Store({
                                     }
                                 ]
                             },
-                            {
-                                "show" : false,
-                                "templates": [
-                                    {
-                                        "url": "http://clients.tci.travelclick.net/mediacreative/landing_beta/banners/160x600_YYYYMMDD_Template_1/index.html",
-                                        "width": "160",
-                                        "height": "600"
-                                    },
-                                    {
-                                        "url": "http://clients.tci.travelclick.net/mediacreative/landing_beta/banners/160x600_YYYYMMDD_Template_1/index.html",
-                                        "width": "300",
-                                        "height": "600"
-                                    },
-                                    {
-                                        "url": "http://clients.tci.travelclick.net/mediacreative/landing_beta/banners/160x600_YYYYMMDD_Template_1/index.html",
-                                        "width": "300",
-                                        "height": "250"
-                                    },
-                                    {
-                                        "url": "http://clients.tci.travelclick.net/mediacreative/landing_beta/banners/160x600_YYYYMMDD_Template_1/index.html",
-                                        "width": "728",
-                                        "height": "90"
-                                    }
-                                ]
-                            },
                         ],
                     },
                     {
                         "name": "Custom Designed Banners",
-                        "description": "Custom design description.",
+                        "description": "Fully custom your display banner to match your branding guidelines.",
                         "image": require("./assets/UXI2.png"),
                         "template_sets": [
                             {
@@ -319,6 +296,33 @@ export default new Vuex.Store({
                         ]
                     },
                     {
+                        "name" : "Carousel",
+                        "show" : false,
+                        "description" : "Live gallery of rotating images taking the customer on a journey across the hotel and its facilities in one single banner.",
+                        "templates": [
+                            {
+                                "url": "//adpiler.s3.eu-central-1.amazonaws.com/ads/7fcce08e96cf7d49764e08eadd63c7bb_html/index.html",
+                                "width": "160",
+                                "height": "600"
+                            },
+                            {
+                                "url": "//adpiler.s3.eu-central-1.amazonaws.com/ads/72fe2ca7d0341a6b7d76e63e0ca51a8f_html/index.html",
+                                "width": "300",
+                                "height": "600"
+                            },
+                            {
+                                "url": "//adpiler.s3.eu-central-1.amazonaws.com/ads/b1c1f4edfaea8a39013ce68f9b83ddcc_html/index.html",
+                                "width": "300",
+                                "height": "250"
+                            },
+                            {
+                                "url": "//adpiler.s3.eu-central-1.amazonaws.com/ads/3a55cb92f3d859b2c1882aca5f15ddb7_html/index.html",
+                                "width": "728",
+                                "height": "90"
+                            }
+                        ]
+                    },
+                    {
                         "name" : "Interactive 1",
                         "show" : false,
                         "description" : "Give the customer the freedom to discover the hotel and interact with the banner without being immediately redirected to the website.",
@@ -436,30 +440,24 @@ export default new Vuex.Store({
                         "name": "6 seconds",
                         "show": true,
                         "videos": [
-                            {"url": require("./assets/video.mp4")},
-                            {"url": require("./assets/video.mp4")},
-                            {"url": require("./assets/video.mp4")},
-                            {"url": require("./assets/video.mp4")}
+                            {"url": require("./assets/Kempinski_12.mp4") + '#t=0,6'},
+                            {"url": require("./assets/Kempinski_12.mp4") + '#t=6,12'},
                         ]
                     },
                     {
                         "name": "15-20 seconds",
                         "show": false,
                         "videos": [
-                            {"url": require("./assets/video2.mp4")},
-                            {"url": require("./assets/video2.mp4")},
-                            {"url": require("./assets/video2.mp4")},
-                            {"url": require("./assets/video2.mp4")}
+                            {"url": require("./assets/Mayfair_15.mp4")},
+                            {"url": require("./assets/Nobu_15.mp4")},
+                            {"url": require("./assets/westford_15.mp4")},
                         ]
                     },
                     {
                         "name": "Story",
                         "show": false,
                         "videos": [
-                            {"url": require("./assets/video3.mp4")},
-                            {"url": require("./assets/video3.mp4")},
-                            {"url": require("./assets/video3.mp4")},
-                            {"url": require("./assets/video3.mp4")},
+
                         ]
                     },
                 ]

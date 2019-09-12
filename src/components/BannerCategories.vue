@@ -2,7 +2,10 @@
     <div id="categories">
         <div id="description">
             <h3>{{ item.name }}</h3>
-            <p>{{ item.description }}</p>
+            <p>
+                {{ item.description }}
+                <span v-if="item.updates"><br>{{ item.updates }}</span>
+            </p>
             <div id="change_template_buttons">
                 <button v-for="(set, index) in item.template_sets" :key="index" class="change_template"
                         :class="active(set)"

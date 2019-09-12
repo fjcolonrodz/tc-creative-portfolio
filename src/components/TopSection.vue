@@ -23,7 +23,7 @@
             <div id="ctas">
                 <a class="button" href="#display_ads">Display Ads</a>
                 <a class="button" href="#social_videos">Social Videos</a>
-                <a class="button" href="#case_studies">Case Studies</a>
+<!--                <a class="button" href="#case_studies">Case Studies</a> -->
             </div>
         </div>
 
