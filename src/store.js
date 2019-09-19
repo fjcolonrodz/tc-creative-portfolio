@@ -440,24 +440,32 @@ export default new Vuex.Store({
                         "name": "6 seconds",
                         "show": true,
                         "videos": [
-                            {"url": require("./assets/Kempinski_12.mp4") + '#t=0,6'},
-                            {"url": require("./assets/Kempinski_12.mp4") + '#t=6,12'},
+                            {"url": require("./assets/social_videos/6sec-destination_1.mp4")},
+                            {"url": require("./assets/social_videos/6sec-destination_2.mp4")},
+                            {"url": require("./assets/social_videos/6sec-seasonalpromo.mp4")},
+                            {"url": require("./assets/social_videos/Kempinski_12.mp4") + '#t=0,6'},
+                            {"url": require("./assets/social_videos/Kempinski_12.mp4") + '#t=6,12'},
                         ]
                     },
                     {
                         "name": "15-20 seconds",
                         "show": false,
                         "videos": [
-                            {"url": require("./assets/Mayfair_15.mp4")},
-                            {"url": require("./assets/Nobu_15.mp4")},
-                            {"url": require("./assets/westford_15.mp4")},
+                            {"url": require("./assets/social_videos/Mayfair_15.mp4")},
+                            {"url": require("./assets/social_videos/westford_15.mp4")},
+                            {"url": require("./assets/social_videos/15-20sec-mix.mp4")},
+                            {"url": require("./assets/social_videos/Nobu_15.mp4")},
                         ]
                     },
                     {
                         "name": "Story",
                         "show": false,
                         "videos": [
-
+                            {"url": require("./assets/social_videos/Story-1-resort.mp4")},
+                            {"url": require("./assets/social_videos/Story-2-resort.mp4")},
+                            {"url": require("./assets/social_videos/Story-3-destination.mp4")},
+                            {"url": require("./assets/social_videos/Story-4-hotel.mp4")},
+                            {"url": require("./assets/social_videos/Story-5-restaurant.mp4")},
                         ]
                     },
                 ]
