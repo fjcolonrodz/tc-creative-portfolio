@@ -233,4 +233,10 @@
             width: 67%;
         }
     }
+
+    @media only screen and (min-width: 1440px) {
+        #content {
+            width: 40%;
+        }
+    }
 </style>
