@@ -165,22 +165,22 @@ export default new Vuex.Store({
                                 "show" : true,
                                 "templates": [
                                     {
-                                        "url": "//adpiler.s3.eu-central-1.amazonaws.com/ads/b74aa737b21b62fd3b92d548d9a1f177_html/index.html",
+                                        "url": "//adpiler.s3.eu-central-1.amazonaws.com/ads/3e5cd35f9befe8357705e418fd6c348d_html/index.html",
                                         "width": "160",
                                         "height": "600"
                                     },
                                     {
-                                        "url": "//adpiler.s3.eu-central-1.amazonaws.com/ads/1fe8e6e42e46989079c72202ae9fab0b_html/index.html",
+                                        "url": "//adpiler.s3.eu-central-1.amazonaws.com/ads/9cfc5e79e0b7ef2ff977040c70f430bf_html/index.html",
                                         "width": "300",
                                         "height": "600"
                                     },
                                     {
-                                        "url": "//adpiler.s3.eu-central-1.amazonaws.com/ads/1a863f7bec438c34c7fd5ec0f05c9d73_html/index.html",
+                                        "url": "//adpiler.s3.eu-central-1.amazonaws.com/ads/2e6cc8f657f6e049bd22fd45a08c3192_html/index.html",
                                         "width": "300",
                                         "height": "250"
                                     },
                                     {
-                                        "url": "//adpiler.s3.eu-central-1.amazonaws.com/ads/7808aa0ce68f068a463749016b583ce5_html/index.html",
+                                        "url": "//adpiler.s3.eu-central-1.amazonaws.com/ads/822eb849a0049eaf972922cd72a8b98b_html/index.html",
                                         "width": "728",
                                         "height": "90"
                                     }
@@ -434,7 +434,7 @@ export default new Vuex.Store({
             },
             {
                 "name": "Social Videos",
-                "description": "Social videos for advertisement on Faebook, Instagram, Youtube, and Pinterest.",
+                "description": "Social videos for advertisement on Facebook, Instagram, YouTube, and Pinterest.",
                 "categories": [
                     {
                         "name": "6 seconds",
