@@ -1,3 +1,3 @@
 module.exports = {
-  publicPath: '/mediacreative/landing_beta/'
+  publicPath: '/creative_solutions'
 }

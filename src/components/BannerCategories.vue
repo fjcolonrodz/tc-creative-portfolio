@@ -14,7 +14,6 @@
                     <span v-else>{{ index + 1 }}</span>
                 </button>
             </div>
-            <img :src="item.image" alt="">
         </div>
 
         <loading class="loading" color="#009dd1" width="50"
