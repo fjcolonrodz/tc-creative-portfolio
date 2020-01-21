@@ -400,33 +400,33 @@ export default new Vuex.Store({
                             }
                         ]
                     },
-                    {
-                        "name" : "Weather Widget",
-                        "show" : false,
-                        "description" : "Presents live weather at destination in order to encourage the desire to travel.",
-                        "templates": [
-                            {
-                                "url": "//adpiler.s3.eu-central-1.amazonaws.com/ads/18c9a7a6b0be372cf04d401abfd80899_html/index.html",
-                                "width": "160",
-                                "height": "600"
-                            },
-                            {
-                                "url": "//adpiler.s3.eu-central-1.amazonaws.com/ads/e0533ac52ac42140cf5a49d92c28c718_html/index.html",
-                                "width": "300",
-                                "height": "600"
-                            },
-                            {
-                                "url": "//adpiler.s3.eu-central-1.amazonaws.com/ads/585881580a0098077568e8a0647c2d9c_html/index.html",
-                                "width": "300",
-                                "height": "250"
-                            },
-                            {
-                                "url": "//adpiler.s3.eu-central-1.amazonaws.com/ads/c635f028f6b2edc00aade54d39ebee9d_html/index.html",
-                                "width": "728",
-                                "height": "90"
-                            }
-                        ]
-                    },
+                    // {
+                    //     "name" : "Weather Widget",
+                    //     "show" : false,
+                    //     "description" : "Presents live weather at destination in order to encourage the desire to travel.",
+                    //     "templates": [
+                    //         {
+                    //             "url": "//adpiler.s3.eu-central-1.amazonaws.com/ads/18c9a7a6b0be372cf04d401abfd80899_html/index.html",
+                    //             "width": "160",
+                    //             "height": "600"
+                    //         },
+                    //         {
+                    //             "url": "//adpiler.s3.eu-central-1.amazonaws.com/ads/e0533ac52ac42140cf5a49d92c28c718_html/index.html",
+                    //             "width": "300",
+                    //             "height": "600"
+                    //         },
+                    //         {
+                    //             "url": "//adpiler.s3.eu-central-1.amazonaws.com/ads/585881580a0098077568e8a0647c2d9c_html/index.html",
+                    //             "width": "300",
+                    //             "height": "250"
+                    //         },
+                    //         {
+                    //             "url": "//adpiler.s3.eu-central-1.amazonaws.com/ads/c635f028f6b2edc00aade54d39ebee9d_html/index.html",
+                    //             "width": "728",
+                    //             "height": "90"
+                    //         }
+                    //     ]
+                    // },
                 ]
             },
             {
