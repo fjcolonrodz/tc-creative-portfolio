@@ -13,6 +13,7 @@
             </p>
             <p> 2019 TravelClick.“TravelClick” and all related logos and marks are owned by and/or are registered trademarks of TravelClick, Inc.</p>
             <img src="../assets/google-partner.png" alt="">
+            <p><a href="#">Terms and Conditions</a></p>
         </div>
     </div>
 </template>
