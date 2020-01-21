@@ -4,7 +4,9 @@
             <h3>{{ item.name }}</h3>
             <p>
                 {{ item.description }}
-                <span v-if="item.updates"><br>{{ item.updates }}</span>
+                <br>
+                <span v-if="item.updates"><br><strong>Updates:</strong> {{ item.updates }}</span>
+                <span v-if="item.price"><br><strong>Price:</strong> {{ item.price }}</span>
             </p>
             <div id="change_template_buttons">
                 <button v-for="(set, index) in item.template_sets" :key="index" class="change_template"

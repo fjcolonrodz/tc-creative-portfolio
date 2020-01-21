@@ -19,6 +19,7 @@ export default new Vuex.Store({
                         "name": "Templated Banners",
                         "description": "No changes to template. Just fitting of photo or video into our banners.",
                         "updates" : "Up to 4 updates allowed per year.",
+                        "price" : "$350 / 300€",
                         "template_sets": [
                             {
                                 "show" : true,
@@ -157,6 +158,7 @@ export default new Vuex.Store({
                     {
                         "name": "Custom Designed Banners",
                         "description": "Fully custom your display banner to match your branding guidelines.",
+                        "price" : "Price on request starting at $800",
                         "template_sets": [
                             {
                                 "show" : true,
@@ -264,6 +266,7 @@ export default new Vuex.Store({
             },
             {
                 "name" : "Add-Ons",
+                "price" : "$200 / 200€",
                 "categories" : [
                     {
                         "name" : "Booking Mask",

@@ -27,6 +27,7 @@
                             {{ category.name }}
                         </button>
                     </div>
+                    <p><strong>Price:</strong> {{ product.price }}</p>
                 </div>
                 <div id="add_ons_categories">
                     <template v-for="(category, index) in product.categories">
