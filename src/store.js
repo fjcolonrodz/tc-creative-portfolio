@@ -122,38 +122,38 @@ export default new Vuex.Store({
                             },
                         ],
                     },
-                    {
-                        "name": "Personalized Banners",
-                        "description": "Specific adjustments to image or text.",
-                        "updates" : "Up to 4 updates allowed per year.",
-                        "template_sets": [
-                            {
-                                "show" : true,
-                                "templates": [
-                                    {
-                                        "url": "//adpiler.s3.eu-central-1.amazonaws.com/ads/b8c8ff3dbb8398d07190ed6b876e162c_html/index.html",
-                                        "width": "160",
-                                        "height": "600"
-                                    },
-                                    {
-                                        "url": "//adpiler.s3.eu-central-1.amazonaws.com/ads/b8c8ff3dbb8398d07190ed6b876e162c_html/index.html",
-                                        "width": "300",
-                                        "height": "600"
-                                    },
-                                    {
-                                        "url": "//adpiler.s3.eu-central-1.amazonaws.com/ads/b8c8ff3dbb8398d07190ed6b876e162c_html/index.html",
-                                        "width": "300",
-                                        "height": "250"
-                                    },
-                                    {
-                                        "url": "//adpiler.s3.eu-central-1.amazonaws.com/ads/b8c8ff3dbb8398d07190ed6b876e162c_html/index.html",
-                                        "width": "728",
-                                        "height": "90"
-                                    }
-                                ]
-                            },
-                        ],
-                    },
+                    // {
+                    //     "name": "Personalized Banners",
+                    //     "description": "Specific adjustments to image or text.",
+                    //     "updates" : "Up to 4 updates allowed per year.",
+                    //     "template_sets": [
+                    //         {
+                    //             "show" : true,
+                    //             "templates": [
+                    //                 {
+                    //                     "url": "//adpiler.s3.eu-central-1.amazonaws.com/ads/b8c8ff3dbb8398d07190ed6b876e162c_html/index.html",
+                    //                     "width": "160",
+                    //                     "height": "600"
+                    //                 },
+                    //                 {
+                    //                     "url": "//adpiler.s3.eu-central-1.amazonaws.com/ads/b8c8ff3dbb8398d07190ed6b876e162c_html/index.html",
+                    //                     "width": "300",
+                    //                     "height": "600"
+                    //                 },
+                    //                 {
+                    //                     "url": "//adpiler.s3.eu-central-1.amazonaws.com/ads/b8c8ff3dbb8398d07190ed6b876e162c_html/index.html",
+                    //                     "width": "300",
+                    //                     "height": "250"
+                    //                 },
+                    //                 {
+                    //                     "url": "//adpiler.s3.eu-central-1.amazonaws.com/ads/b8c8ff3dbb8398d07190ed6b876e162c_html/index.html",
+                    //                     "width": "728",
+                    //                     "height": "90"
+                    //                 }
+                    //             ]
+                    //         },
+                    //     ],
+                    // },
                     {
                         "name": "Custom Designed Banners",
                         "description": "Fully custom your display banner to match your branding guidelines.",
