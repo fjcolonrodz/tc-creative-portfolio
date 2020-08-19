@@ -229,7 +229,7 @@ export default new Vuex.Store({
                                         "height": "250"
                                     },
                                     {
-                                        "url": "//adpiler.s3.eu-central-1.amazonaws.com/ads/65b2d88e3d1f9341f5a9d2df07257328_html/index.html",
+                                        "url": "//adpiler.s3.eu-central-1.amazonaws.com/ads/457d17dda5f1ea168541d330dbafcba1_html/index.html",
                                         "width": "728",
                                         "height": "90"
                                     }
@@ -244,7 +244,7 @@ export default new Vuex.Store({
                                         "height": "600"
                                     },
                                     {
-                                        "url": "//adpiler.s3.eu-central-1.amazonaws.com/ads/63fef0af02196ec66a130289ec0ff5d5_html/index.html",
+                                        "url": "//adpiler.s3.eu-central-1.amazonaws.com/ads/1543cf344d2b574299d5068e0612e1b4_html/index.html",
                                         "width": "300",
                                         "height": "600"
                                     },
