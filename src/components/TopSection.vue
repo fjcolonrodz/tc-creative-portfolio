@@ -6,7 +6,7 @@
         </div>
 
         <div id="content">
-            <img class="logo" src="../assets/logo.png" alt="">
+            <img class="logo" src="../assets/amadeus-hospitality.png" alt="">
 
             <h1>{{ $store.state.title }}</h1>
 
@@ -77,7 +77,7 @@
     }
 
     #content .logo {
-        width: 200px;
+        width: 300px;
     }
 
     #content h1 {

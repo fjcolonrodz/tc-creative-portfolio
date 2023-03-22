@@ -1,19 +1,7 @@
 <template>
     <div id="footer">
-        <div id="background">
-            <img class="image" src="../assets/city4.png" alt="">
-        </div>
         <div id="content">
-            <img class="logo" src="../assets/tclogo.png" alt="">
-            <p>Contact your TravelClick representative at <a href="tel:+1 866-674-4553">+1 866-674-4553</a> or <a href="mailto:info@travelclick.com">info@travelclick.com</a></p>
-            <a href="https://www.travelclick.com/">www.travelclick.com</a>
-            <p>
-                We are all about maximizing revenue for hotels. Our data-driven solutions enable over 25,000 customers <br>
-                around the globe to know, acquire, convert and retain guests.
-            </p>
-            <p> 2019 TravelClick.“TravelClick” and all related logos and marks are owned by and/or are registered trademarks of TravelClick, Inc.</p>
-            <img src="../assets/google-partner.png" alt="">
-            <p><a href="#">Terms and Conditions</a></p>
+            <p>© 2023 Amadeus Hospitality. All rights reserved. Amadeus is the owner or the licensee of this website and all content. The website and content are protected by copyright and other intellectual property laws, treaties, and registrations globally.</p>
         </div>
     </div>
 </template>

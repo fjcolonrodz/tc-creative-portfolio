@@ -1,3 +1,3 @@
 module.exports = {
-  publicPath: '/creative_solutions'
+  publicPath: '/assets-service/distributions/media_creative/Websites/creative_portfolio'
 }

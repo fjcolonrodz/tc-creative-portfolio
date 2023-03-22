@@ -22,13 +22,13 @@
     #videos {
         display: flex;
         flex-wrap: wrap;
-        justify-content: space-around;
+        justify-content: left;
         padding-left: 1em;
     }
 
     video {
         height: 320px;
-        margin: 0 auto 1.5em auto;
+        margin: 0 2em 1.5em auto;
         width: 320px;
     }
 
