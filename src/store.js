@@ -17,7 +17,7 @@ export default new Vuex.Store({
                 "categories": [
                     {
                         "name": "Templated Banners",
-                        "description": "No changes to template. Just fitting of photo or video into our banners.",
+                        "description": "No layout changes to the template. The image(s) or video is placed and fitted to the template.",
                         "updates" : "Up to 4 updates allowed per year.",
                         "price" : "$350 / 300€",
                         "template_sets": [
@@ -157,7 +157,7 @@ export default new Vuex.Store({
                     // },
                     {
                         "name": "Custom Designed Banners",
-                        "description": "Fully custom your display banner to match your branding guidelines.",
+                        "description": "The banner is styled to match the client's branding. The image(s) or video is placed and fitted to the custom template.",
                         "price" : "Price on request starting at $800",
                         "template_sets": [
                             {
@@ -271,7 +271,7 @@ export default new Vuex.Store({
                     {
                         "name" : "Booking Mask",
                         "show" : true,
-                        "description" : "Get the client to take the first step of their booking journey directly on the display ad, by allowing them to select the date and length of stay. This preselection will then auto populate on iHotelier booking engine to speed up the booking process.",
+                        "description" : "Get the client to take the first step of their booking journey directly on the display ad, by allowing them to select the date and length of stay. This preselection will then auto-populate on iHotelier booking engine to speed up the booking process.",
                         "templates": [
                             {
                                 "url": "//adpiler.s3.eu-central-1.amazonaws.com/ads/64307e41-864b-4488-94ce-b9b0f48c96bb_html/index.html",
