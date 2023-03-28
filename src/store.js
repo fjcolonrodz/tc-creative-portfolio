@@ -17,7 +17,7 @@ export default new Vuex.Store({
                 "categories": [
                     {
                         "name": "Templated Banners",
-                        "description": "No layout or animation changes to the template. The image(s) or video is placed and fitted to the template.",
+                        "description": "No changes to the template layout or animations. The image(s) or video is placed and fitted to the template.",
                         "updates" : "Up to 4 updates allowed per year.",
                         "price" : "$350 / 300€",
                         "template_sets": [
